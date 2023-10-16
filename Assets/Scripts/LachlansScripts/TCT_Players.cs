@@ -31,44 +31,47 @@ public class TCT_Players : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    void PlayerOne()
-    {
-        if (Input.GetKeyDown(KeyCode.~))
+        if (Input.GetKeyDown(KeyCode.H)) 
         {
-            playerOneCounter++;
-            playerOnePoints++;
+            Debug.Log("H");
         }
     }
 
-    void PlayerTwo()
-    {
-        if (Input.GetKeyDown(KeyCode.~))
-        {
-            playerTwoCounter++;
-            playerTwoPoints++;
-        }
-    }
+    //void PlayerOne()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.~))
+    //    {
+    //        playerOneCounter++;
+    //        playerOnePoints++;
+    //    }
+    //}
 
-    void PlayerThree()
-    {
-        if (Input.GetKeyDown(KeyCode.~))
-        {
-            playerThreeCounter++;
-            playerThreePoints++;
-        }
-    }
+    //void PlayerTwo()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.~))
+    //    {
+    //        playerTwoCounter++;
+    //        playerTwoPoints++;
+    //    }
+    //}
 
-    void PlayerFour()
-    {
-        if (Input.GetKeyDown(KeyCode.~))
-        {
-            playerFourCounter++;
-            playerFourPoints++;
-        }
-    }
+    //void PlayerThree()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.~))
+    //    {
+    //        playerThreeCounter++;
+    //        playerThreePoints++;
+    //    }
+    //}
+
+    //void PlayerFour()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.~))
+    //    {
+    //        playerFourCounter++;
+    //        playerFourPoints++;
+    //    }
+    //}
 
 
 
