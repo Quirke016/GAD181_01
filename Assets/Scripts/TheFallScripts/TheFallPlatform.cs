@@ -9,11 +9,12 @@ public class TheFallPlatform : MonoBehaviour
     [SerializeField] private bool destroy = false;
     [SerializeField] private float gameTimer;
     [SerializeField] private float timer;
+    [SerializeField] private SpriteRenderer tf_spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        tf_spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -59,7 +60,7 @@ public class TheFallPlatform : MonoBehaviour
         {
             if (gameTimer >= timer)
             {
-                Destroy(gameObject);
+                tf_spriteRenderer.color = Color.red;
             }
         }
     }
