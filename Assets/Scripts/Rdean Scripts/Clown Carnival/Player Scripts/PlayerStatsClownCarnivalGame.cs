@@ -1,14 +1,9 @@
-using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class clowncarnival_playerstats : MonoBehaviour
+public class PlayerStatsClownCarnivalGame : MonoBehaviour
 {
-
-    public int playerHealth = 3;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +13,6 @@ public class clowncarnival_playerstats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-    
+        
     }
 }
