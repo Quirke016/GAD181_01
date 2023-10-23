@@ -67,7 +67,8 @@ public class CG_Shuffle : MonoBehaviour
         {
             startingCupLoc[i] = cupList[i].transform.localPosition;
 
-            startingCupLoc[i].x = (distance * i - (tableSize / Mathf.Round(cupList.Count)) - ((cupList.Count-3)));
+            //startingCupLoc[i].x = (distance * i - (tableSize / 2));
+            startingCupLoc[i].x = (distance * i - (distance * (cupList.Count-1) / 2.0f));
             Debug.Log(i + " x = " + (distance * i - Mathf.Round(tableSize / (cupList.Count / 2))) + "  which the min" + Mathf.Round(tableSize / (cupList.Count / 2)));
 
             cupColors[i] = cupList[i].GetComponent<CG_Cup>();

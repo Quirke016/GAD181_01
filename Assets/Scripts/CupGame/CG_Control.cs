@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Search;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CG_Control : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class CG_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = Camera.main.nearClipPlane;
+        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
+        transform.position = worldPosition;
         Collider2D col = Physics2D.OverlapPoint(transform.position);
         if (col != null)
         {
