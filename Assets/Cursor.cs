@@ -1,24 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Search;
 using UnityEngine;
 
-public class CG_Control : MonoBehaviour
-{ 
+public class Cursor : MonoBehaviour
+{
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         Collider2D col = Physics2D.OverlapPoint(transform.position);
-        if (col != null)
+        if(col!=null)
         {
             CustomButton button = col.gameObject.GetComponent<CustomButton>();
-            if (button != null)
+            if(button != null )
             {
                 Debug.Log("OverButton");
             }

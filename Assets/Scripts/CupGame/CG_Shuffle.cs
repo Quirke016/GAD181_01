@@ -21,7 +21,7 @@ public class CG_Shuffle : MonoBehaviour
     public Vector2[] startingCupLoc;
 
 
-
+    public CG_Cup[] cupColors;
     public bool debug = true;
 
     public GameObject thisObject;
@@ -57,6 +57,9 @@ public class CG_Shuffle : MonoBehaviour
 
         startingCupLoc = new Vector2[cupList.Count];
 
+
+        cupColors = new CG_Cup[cupList.Count];
+
         float distance = tableSize / cupList.Count;
         Debug.Log("Distance = "+ cupList.Count);
 
@@ -67,7 +70,7 @@ public class CG_Shuffle : MonoBehaviour
             startingCupLoc[i].x = (distance * i - (tableSize / Mathf.Round(cupList.Count)) - ((cupList.Count-3)));
             Debug.Log(i + " x = " + (distance * i - Mathf.Round(tableSize / (cupList.Count / 2))) + "  which the min" + Mathf.Round(tableSize / (cupList.Count / 2)));
 
-            
+            cupColors[i] = cupList[i].GetComponent<CG_Cup>();
 
             if (debug)
 
@@ -577,6 +580,8 @@ public class CG_Shuffle : MonoBehaviour
     IEnumerator StartRound(float duration)
 
     {
+        cupColors[cupWithBall].ballUnderThis = true;
+
 
         RoundNumber += 1;
 
@@ -588,23 +593,19 @@ public class CG_Shuffle : MonoBehaviour
         // this funstion is to reavel the cup with the ball under
         if (revalCup)
         {
-            while (!Input.GetKeyDown(KeyCode.Space))
-            {
-                yield return null;
-            }
-
-
-            cupList[cupWithBall].GetComponent<Renderer>().material.SetColor("_Color", Color.red);
-            yield return new WaitForSeconds(1);
+            
 
             while (!Input.GetKeyDown(KeyCode.Space))
             {
                 yield return null;
             }
 
-
-            cupList[cupWithBall].GetComponent<Renderer>().material.SetColor("_Color", Color.white);
-            yield return new WaitForSeconds(1);
+            for (int i = 0; i < cupList.Count; i++)
+            {
+                cupColors[i].showTime = true;
+            }
+            
+            yield return new WaitForSeconds(0.25f);
         }
 
         StartCoroutine(CupSwaperLoop(duration));
@@ -613,14 +614,34 @@ public class CG_Shuffle : MonoBehaviour
         // this funstion is to reavel the cup with the ball under
         if (revalCup)
         {
-            statues.text = "guess";
+
+            statues.text = "wait";
+
+            yield return new WaitForSeconds(duration+0.5f);
+            for (int i = 0; i < cupList.Count; i++)
+            {
+                cupColors[i].showTime = false;
+                
+            }
+            statues.text = "Guess";
+
+            for (int i = 0; i < cupList.Count; i++)
+            {
+                cupColors[i].selectTime = true;
+            }
+
             while (!Input.GetKeyDown(KeyCode.Space))
             {
                 yield return null;
             }
 
+            for (int i = 0; i < cupList.Count; i++)
+            {
+                cupColors[i].selectTime = false;
+            }
 
-            cupList[cupWithBall].GetComponent<Renderer>().material.SetColor("_Color", Color.red);
+
+
             yield return new WaitForSeconds(1);
 
             while (!Input.GetKeyDown(KeyCode.Space))
@@ -629,11 +650,19 @@ public class CG_Shuffle : MonoBehaviour
             }
 
 
-            cupList[cupWithBall].GetComponent<Renderer>().material.SetColor("_Color", Color.white);
+            for (int i = 0; i < cupList.Count; i++)
+            {
+                cupColors[i].ballSelected = false;
+                cupColors[i].ballUnderThis = false;
+            }
+
+
             yield return new WaitForSeconds(1);
         }
+
+        cupColors[cupWithBall].ballUnderThis = false;
         AddNewCupPrefab();
-        statues.text = "off";
+        statues.text = "press K";
         statuesBool = false;
 
 
@@ -870,7 +899,7 @@ public class CG_Shuffle : MonoBehaviour
         {
 
             statuesBool = true;
-            statues.text = "On";
+            statues.text = "Press space";
             StartCoroutine(StartRound(1f));
 
 
