@@ -16,6 +16,7 @@ public class TheFallGameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Spawns the players using a loop to instantiate the prefabs
         PlayerSpawn();
         playerIdle = platformLife[0];
     }
@@ -23,19 +24,21 @@ public class TheFallGameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If the player idle timer is more than 0 it is reduced overtime
         if (playerIdle > 0)
         {
             playerIdle -= Time.deltaTime;
         }
         else
         {
-            Debug.Log("player was idle");
+            //Once the idle timer reaches 0 it destroys the player
             Destroy(playersList[0]);
         }
     }
 
     private void PlayerSpawn()
     {   
+        //Spawns the players, places them into individual locations, adds the players to the list
         if(playerPrefab != null)
         {
             for (int i = 0; i < playersToSpawn; i++)

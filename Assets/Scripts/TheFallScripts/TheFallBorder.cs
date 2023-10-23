@@ -5,17 +5,19 @@ using UnityEngine;
 
 public class TheFallBorder : MonoBehaviour
 {
-    public TheFallPlayer player;
+    //this script kills the player if they go out of bounds
+
+    public TheFallGameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = FindObjectOfType<TheFallPlayer>();
+        gameManager = FindObjectOfType<TheFallGameManager>();
     }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        player.kill = true;
+        Destroy(gameManager.playersList[0]);
     }
 }

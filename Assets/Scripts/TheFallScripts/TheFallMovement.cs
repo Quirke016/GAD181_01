@@ -25,6 +25,7 @@ public class TheFallMovement : MonoBehaviour
 
         if (gameManager.playersList[0])
         {
+            //Movement using the W A S D keys
             if (Input.GetKeyDown(KeyCode.W))
             {
                 Debug.Log("W pressed");
@@ -50,6 +51,7 @@ public class TheFallMovement : MonoBehaviour
             }
         }
         
+        //Movement using the arrow keys
         if (gameManager.playersList[0])
         {
             if (Input.GetKeyDown(KeyCode.UpArrow))

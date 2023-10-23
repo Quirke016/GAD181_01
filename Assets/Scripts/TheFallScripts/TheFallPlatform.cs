@@ -13,33 +13,42 @@ public class TheFallPlatform : MonoBehaviour
     [SerializeField] private float playerIdleTimer;
     public float interval;
     public SpriteRenderer tf_spriteRenderer;
-    public TheFallPlayer player;
     public TheFallGameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
     {
-
-        if(tf_spriteRenderer == null)
+        //if the platform does not have a reference to its own renderer, get the reference
+        if (tf_spriteRenderer == null)
         {
             tf_spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
-        if(gameManager == null)
+        //if the platform does not have a reference to the game manager, get the reference
+        if (gameManager == null)
         {
             gameManager = FindObjectOfType<TheFallGameManager>();
         }
+
+        //the player idle timer is set to the initial timer life
         playerIdleTimer = gameManager.platformLife[0];
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        active = true;
+        //The platforms is acrivated and begins the destruction sequence. 
+        //the destroy is to prevent the platform from being active again and resetting when it is triggered
+        if(destroy == false)
+        {
+            active = true;
+        }
+        
+
+        //every time the player enters a new platform the idle timer is reset
         gameManager.playerIdle = playerIdleTimer;
         if (killState == true)
         {
-            player.kill = true;
             Destroy(gameManager.playersList[0]);
         }
     }
@@ -48,9 +57,12 @@ public class TheFallPlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //The intervals for the platforms is set and is edited through the game manager
         interval = gameManager.platformInterval;
+
         gameTimer = Time.time;
 
+        //The idle time and platform life are updated after every interval is passed (numbers are lowered as the game progresses)
         if (gameTimer < interval)
         {
             playerIdleTimer = gameManager.platformLife[0];
@@ -78,13 +90,15 @@ public class TheFallPlatform : MonoBehaviour
         //When the platform is stepped on it begins a timer until it is destroyed
         if (active == true)
         {
-            SetTimer();
+            timer = gameTimer + timeToDestroy;
             active = false;
             destroy = true;
+            //between being activated and destroyed the platform is set to yellow
             tf_spriteRenderer.color = Color.yellow;
         }
 
-        if(destroy == true)
+        //once the platform is properly destroyed it is set to kill the player and is made red
+        if (destroy == true)
         {
             if (gameTimer >= timer)
             {
@@ -95,9 +109,5 @@ public class TheFallPlatform : MonoBehaviour
 
 
     }
-
-    void SetTimer()
-    {
-        timer = gameTimer + timeToDestroy;
-    }
 }
+
