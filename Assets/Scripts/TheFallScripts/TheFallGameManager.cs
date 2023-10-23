@@ -10,18 +10,28 @@ public class TheFallGameManager : MonoBehaviour
     public List<float> platformLife = new List<float>();
     public int playersToSpawn;
     public float platformInterval;
+    public float playerIdle;
     
 
     // Start is called before the first frame update
     void Start()
     {
         PlayerSpawn();
+        playerIdle = platformLife[0];
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (playerIdle > 0)
+        {
+            playerIdle -= Time.deltaTime;
+        }
+        else
+        {
+            Debug.Log("player was idle");
+            Destroy(playersList[0]);
+        }
     }
 
     private void PlayerSpawn()

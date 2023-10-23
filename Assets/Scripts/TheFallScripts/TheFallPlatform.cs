@@ -10,6 +10,7 @@ public class TheFallPlatform : MonoBehaviour
     [SerializeField] private bool killState = false;
     [SerializeField] private float gameTimer;
     [SerializeField] private float timer;
+    [SerializeField] private float playerIdleTimer;
     public float interval;
     public SpriteRenderer tf_spriteRenderer;
     public TheFallPlayer player;
@@ -18,6 +19,7 @@ public class TheFallPlatform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         if(tf_spriteRenderer == null)
         {
             tf_spriteRenderer = GetComponent<SpriteRenderer>();
@@ -27,29 +29,20 @@ public class TheFallPlatform : MonoBehaviour
         {
             gameManager = FindObjectOfType<TheFallGameManager>();
         }
+        playerIdleTimer = gameManager.platformLife[0];
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         active = true;
+        gameManager.playerIdle = playerIdleTimer;
         if (killState == true)
         {
             player.kill = true;
             Destroy(gameManager.playersList[0]);
         }
     }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        Debug.Log("Is in trigger");
-        if (killState == true)
-        {
-            player.kill = true;
-        }
-    }
-
-
 
 
     // Update is called once per frame
@@ -60,25 +53,25 @@ public class TheFallPlatform : MonoBehaviour
 
         if (gameTimer < interval)
         {
-
+            playerIdleTimer = gameManager.platformLife[0];
             timeToDestroy = gameManager.platformLife[0];
         }
 
         if (gameTimer > interval && gameTimer < (interval + interval))
         {
-            
+            playerIdleTimer = gameManager.platformLife[1];
             timeToDestroy = gameManager.platformLife[1];
         }
 
         if (gameTimer > interval + interval && gameTimer < interval + interval + interval)
         {
-            
+            playerIdleTimer = gameManager.platformLife[2];
             timeToDestroy = gameManager.platformLife[2];
         }
 
         if (gameTimer > interval + interval + interval)
         {
-            
+            playerIdleTimer = gameManager.platformLife[3];
             timeToDestroy = gameManager.platformLife[3];
         }
 
@@ -99,6 +92,7 @@ public class TheFallPlatform : MonoBehaviour
                 killState = true;
             }
         }
+
 
     }
 
