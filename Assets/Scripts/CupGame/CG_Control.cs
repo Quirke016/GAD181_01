@@ -4,7 +4,8 @@ using UnityEditor.Search;
 using UnityEngine;
 
 public class CG_Control : MonoBehaviour
-{ 
+{
+    CG_Cup lastButton = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +18,22 @@ public class CG_Control : MonoBehaviour
         Collider2D col = Physics2D.OverlapPoint(transform.position);
         if (col != null)
         {
-            CustomButton button = col.gameObject.GetComponent<CustomButton>();
+            CG_Cup button = col.gameObject.GetComponent<CG_Cup>();
             if (button != null)
             {
-                Debug.Log("OverButton");
+                button.ballSelected = true;
+                lastButton = button;
             }
+            else
+            {
+                if (lastButton != null)
+                    lastButton.ballSelected = false;
+            }
+        }
+        else
+        {
+            if (lastButton != null)
+                lastButton.ballSelected = false;
         }
     }
 }

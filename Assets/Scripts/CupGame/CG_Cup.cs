@@ -10,6 +10,7 @@ public class CG_Cup : MonoBehaviour
     public bool showTime = false;
     public bool selectTime = false;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,5 +37,6 @@ public class CG_Cup : MonoBehaviour
             this.GetComponent<Renderer>().material.SetColor("_Color", Color.white);
         }
 
+     
     }
 }
