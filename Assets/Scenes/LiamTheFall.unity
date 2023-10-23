@@ -217,8 +217,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &11620473
 SpriteRenderer:
@@ -366,8 +370,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &13775353
 SpriteRenderer:
@@ -515,8 +523,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &20116868
 SpriteRenderer:
@@ -664,8 +676,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &36377063
 SpriteRenderer:
@@ -813,8 +829,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &42561005
 SpriteRenderer:
@@ -962,8 +982,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &54210809
 SpriteRenderer:
@@ -1111,8 +1135,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &57804196
 SpriteRenderer:
@@ -1260,8 +1288,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &63597067
 SpriteRenderer:
@@ -1409,8 +1441,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &65632531
 SpriteRenderer:
@@ -1558,8 +1594,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &72146809
 SpriteRenderer:
@@ -1707,8 +1747,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &91106736
 SpriteRenderer:
@@ -1856,8 +1900,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &98276749
 SpriteRenderer:
@@ -2005,8 +2053,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &100528754
 SpriteRenderer:
@@ -2154,8 +2206,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &109727139
 SpriteRenderer:
@@ -2303,8 +2359,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &120167150
 SpriteRenderer:
@@ -2452,8 +2512,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &130061414
 SpriteRenderer:
@@ -2601,8 +2665,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &131170970
 SpriteRenderer:
@@ -2750,8 +2818,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &131223425
 SpriteRenderer:
@@ -2899,8 +2971,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &147349953
 SpriteRenderer:
@@ -3048,8 +3124,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &158501807
 SpriteRenderer:
@@ -3197,8 +3277,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &161256887
 SpriteRenderer:
@@ -3346,8 +3430,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &162742239
 SpriteRenderer:
@@ -3495,8 +3583,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &168081443
 SpriteRenderer:
@@ -3644,8 +3736,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &187941201
 SpriteRenderer:
@@ -3793,8 +3889,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &189611031
 SpriteRenderer:
@@ -3942,8 +4042,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &193258678
 SpriteRenderer:
@@ -4091,8 +4195,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &195929958
 SpriteRenderer:
@@ -4240,8 +4348,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &196564674
 SpriteRenderer:
@@ -4389,8 +4501,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &198044489
 SpriteRenderer:
@@ -4538,8 +4654,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &209115238
 SpriteRenderer:
@@ -4687,8 +4807,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &215915050
 SpriteRenderer:
@@ -4836,8 +4960,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &223900391
 SpriteRenderer:
@@ -4985,8 +5113,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &228168896
 SpriteRenderer:
@@ -5134,8 +5266,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &243744530
 SpriteRenderer:
@@ -5283,8 +5419,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &243745222
 SpriteRenderer:
@@ -5432,8 +5572,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &246447450
 SpriteRenderer:
@@ -5581,8 +5725,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &252849710
 SpriteRenderer:
@@ -5730,8 +5878,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &260582350
 SpriteRenderer:
@@ -5879,8 +6031,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &269089007
 SpriteRenderer:
@@ -6028,8 +6184,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &282634578
 SpriteRenderer:
@@ -6177,8 +6337,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &285539938
 SpriteRenderer:
@@ -6326,8 +6490,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &309851867
 SpriteRenderer:
@@ -6475,8 +6643,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &334203004
 SpriteRenderer:
@@ -6624,8 +6796,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &342303408
 SpriteRenderer:
@@ -6773,8 +6949,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &345177000
 SpriteRenderer:
@@ -6922,8 +7102,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &359976563
 SpriteRenderer:
@@ -7071,8 +7255,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &375578375
 SpriteRenderer:
@@ -7220,8 +7408,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &377240783
 SpriteRenderer:
@@ -7369,8 +7561,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &381296083
 SpriteRenderer:
@@ -7518,8 +7714,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &387194528
 SpriteRenderer:
@@ -7667,8 +7867,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &400978518
 SpriteRenderer:
@@ -7816,8 +8020,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &402316799
 SpriteRenderer:
@@ -7965,8 +8173,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &407410156
 SpriteRenderer:
@@ -8114,8 +8326,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &414027164
 SpriteRenderer:
@@ -8263,8 +8479,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &422900029
 SpriteRenderer:
@@ -8412,8 +8632,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &432244778
 SpriteRenderer:
@@ -8561,8 +8785,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &440415765
 SpriteRenderer:
@@ -8616,181 +8844,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &444768802
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 444768805}
-  - component: {fileID: 444768804}
-  - component: {fileID: 444768803}
-  - component: {fileID: 444768809}
-  - component: {fileID: 444768808}
-  m_Layer: 7
-  m_Name: Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &444768803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444768802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c3f509a5428bcc42a2a74545ca39797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 444768802}
-  moveSpeed: 0.75
-  playerX: -8.22
-  playerY: 4.5
---- !u!212 &444768804
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444768802}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &444768805
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444768802}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.22, y: 4.5, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &444768808
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444768802}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.9}
-  m_EdgeRadius: 0
---- !u!50 &444768809
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444768802}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &445782635
 GameObject:
   m_ObjectHideFlags: 0
@@ -8885,8 +8938,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &445782639
 SpriteRenderer:
@@ -8940,6 +8997,150 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &451816465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 451816469}
+  - component: {fileID: 451816468}
+  - component: {fileID: 451816467}
+  - component: {fileID: 451816466}
+  m_Layer: 0
+  m_Name: Border (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &451816466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451816465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d060f73431c659640ae8f0ffb88f47f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+--- !u!61 &451816467
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451816465}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.18524048, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.62951905, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &451816468
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451816465}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &451816469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451816465}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 10, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &457476921
 GameObject:
   m_ObjectHideFlags: 0
@@ -9034,8 +9235,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &457476925
 SpriteRenderer:
@@ -9183,8 +9388,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &469462192
 SpriteRenderer:
@@ -9332,8 +9541,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &481508606
 SpriteRenderer:
@@ -9481,8 +9694,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &484286313
 SpriteRenderer:
@@ -9630,8 +9847,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &489417185
 SpriteRenderer:
@@ -9779,8 +10000,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &491992979
 SpriteRenderer:
@@ -9928,8 +10153,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &495578023
 SpriteRenderer:
@@ -10077,8 +10306,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &496891012
 SpriteRenderer:
@@ -10226,8 +10459,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &497906477
 SpriteRenderer:
@@ -10375,8 +10612,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &503385825
 SpriteRenderer:
@@ -10524,8 +10765,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &504797137
 SpriteRenderer:
@@ -10673,8 +10918,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &507591268
 SpriteRenderer:
@@ -10822,8 +11071,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &513332041
 SpriteRenderer:
@@ -10971,8 +11224,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &517213913
 SpriteRenderer:
@@ -11120,8 +11377,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &519678328
 SpriteRenderer:
@@ -11269,8 +11530,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &537993739
 SpriteRenderer:
@@ -11418,8 +11683,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &549704797
 SpriteRenderer:
@@ -11567,8 +11836,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &571070548
 SpriteRenderer:
@@ -11622,51 +11895,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &572532698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 572532700}
-  - component: {fileID: 572532699}
-  m_Layer: 0
-  m_Name: FallGameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &572532699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572532698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a68894e97a6e747bc1acee51a16ee9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  redMaterial: {fileID: 2100000, guid: 3583ab6beed3e534180c30998653e879, type: 2}
---- !u!4 &572532700
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572532698}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5375004, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &579596371
 GameObject:
   m_ObjectHideFlags: 0
@@ -11761,8 +11989,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &579596375
 SpriteRenderer:
@@ -11910,8 +12142,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &590457708
 SpriteRenderer:
@@ -12059,8 +12295,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &603050471
 SpriteRenderer:
@@ -12208,8 +12448,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &617508577
 SpriteRenderer:
@@ -12357,8 +12601,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &617900386
 SpriteRenderer:
@@ -12506,8 +12754,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &622244640
 SpriteRenderer:
@@ -12655,8 +12907,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &636837050
 SpriteRenderer:
@@ -12804,8 +13060,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &637604337
 SpriteRenderer:
@@ -12953,8 +13213,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &650701460
 SpriteRenderer:
@@ -13102,8 +13366,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &655025725
 SpriteRenderer:
@@ -13251,8 +13519,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &655078767
 SpriteRenderer:
@@ -13400,8 +13672,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &670073641
 SpriteRenderer:
@@ -13549,8 +13825,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &678325875
 SpriteRenderer:
@@ -13698,8 +13978,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &678873798
 SpriteRenderer:
@@ -13847,8 +14131,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &679246336
 SpriteRenderer:
@@ -13996,8 +14284,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &698331769
 SpriteRenderer:
@@ -14145,8 +14437,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &704551451
 SpriteRenderer:
@@ -14200,6 +14496,150 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &710868721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710868725}
+  - component: {fileID: 710868724}
+  - component: {fileID: 710868723}
+  - component: {fileID: 710868722}
+  m_Layer: 0
+  m_Name: Border (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &710868722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710868721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d060f73431c659640ae8f0ffb88f47f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+--- !u!61 &710868723
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710868721}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.2469871}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5060258}
+  m_EdgeRadius: 0
+--- !u!212 &710868724
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710868721}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &710868725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710868721}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -5.38, z: 0}
+  m_LocalScale: {x: 18, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &728803299
 GameObject:
   m_ObjectHideFlags: 0
@@ -14294,8 +14734,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &728803303
 SpriteRenderer:
@@ -14443,8 +14887,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &731564946
 SpriteRenderer:
@@ -14592,8 +15040,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &738813389
 SpriteRenderer:
@@ -14741,8 +15193,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &770673670
 SpriteRenderer:
@@ -14890,8 +15346,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &773223164
 SpriteRenderer:
@@ -15039,8 +15499,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &773690321
 SpriteRenderer:
@@ -15188,8 +15652,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &792128611
 SpriteRenderer:
@@ -15337,8 +15805,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &796911655
 SpriteRenderer:
@@ -15486,8 +15958,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &801828906
 SpriteRenderer:
@@ -15635,8 +16111,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &804833074
 SpriteRenderer:
@@ -15784,8 +16264,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &827344048
 SpriteRenderer:
@@ -15933,8 +16417,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &828415488
 SpriteRenderer:
@@ -16082,8 +16570,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &829686531
 SpriteRenderer:
@@ -16231,8 +16723,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &836959008
 SpriteRenderer:
@@ -16380,8 +16876,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &838858667
 SpriteRenderer:
@@ -16529,8 +17029,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &841826547
 SpriteRenderer:
@@ -16618,8 +17122,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &842123467
 SpriteRenderer:
@@ -16686,305 +17194,305 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 223900388}
-  - {fileID: 838858664}
-  - {fileID: 252849707}
-  - {fileID: 1433665770}
-  - {fileID: 2014875764}
-  - {fileID: 2064169845}
-  - {fileID: 54210806}
-  - {fileID: 309851864}
-  - {fileID: 1785544658}
-  - {fileID: 801828903}
-  - {fileID: 13775350}
-  - {fileID: 1980882558}
-  - {fileID: 2041026727}
-  - {fileID: 1061297840}
-  - {fileID: 2131829919}
-  - {fileID: 1744640144}
-  - {fileID: 1811262164}
-  - {fileID: 1088425590}
-  - {fileID: 878023723}
-  - {fileID: 1872519946}
-  - {fileID: 1362051641}
-  - {fileID: 414027161}
-  - {fileID: 1112746041}
-  - {fileID: 2134390451}
-  - {fileID: 2104924083}
-  - {fileID: 36377060}
-  - {fileID: 1709901755}
-  - {fileID: 1927156317}
-  - {fileID: 1652794417}
-  - {fileID: 738813386}
-  - {fileID: 1668188565}
-  - {fileID: 162742236}
-  - {fileID: 1950830697}
-  - {fileID: 334203001}
-  - {fileID: 1827723498}
-  - {fileID: 579596372}
-  - {fileID: 1078256109}
-  - {fileID: 933824951}
-  - {fileID: 981375331}
-  - {fileID: 189611028}
-  - {fileID: 377240780}
-  - {fileID: 246447447}
-  - {fileID: 196564671}
-  - {fileID: 1377433258}
-  - {fileID: 792128608}
-  - {fileID: 432244775}
-  - {fileID: 98276746}
-  - {fileID: 947430750}
-  - {fileID: 849386614}
-  - {fileID: 1527312782}
-  - {fileID: 877734371}
-  - {fileID: 2105472386}
-  - {fileID: 804833071}
-  - {fileID: 2142371982}
-  - {fileID: 42561002}
-  - {fileID: 495578020}
-  - {fileID: 63597064}
-  - {fileID: 731564943}
-  - {fileID: 1594364642}
-  - {fileID: 1358546066}
-  - {fileID: 1134390439}
-  - {fileID: 1271395371}
-  - {fileID: 1227410126}
-  - {fileID: 1225478036}
-  - {fileID: 1938779048}
-  - {fileID: 1857915401}
-  - {fileID: 1306111825}
-  - {fileID: 1515981890}
-  - {fileID: 158501804}
-  - {fileID: 1587522313}
-  - {fileID: 507591265}
-  - {fileID: 1398805424}
-  - {fileID: 1609636194}
-  - {fileID: 469462189}
-  - {fileID: 1947680637}
-  - {fileID: 1878817837}
-  - {fileID: 923695131}
-  - {fileID: 1995652621}
-  - {fileID: 440415762}
-  - {fileID: 841826544}
-  - {fileID: 228168893}
-  - {fileID: 842783874}
-  - {fileID: 1114461471}
-  - {fileID: 1853500991}
-  - {fileID: 457476922}
-  - {fileID: 484286310}
-  - {fileID: 978509091}
-  - {fileID: 1789127955}
-  - {fileID: 617900383}
-  - {fileID: 1963615330}
-  - {fileID: 1111641193}
-  - {fileID: 1555190144}
-  - {fileID: 770673667}
-  - {fileID: 243744527}
-  - {fileID: 1944952938}
-  - {fileID: 1057608885}
-  - {fileID: 901959974}
-  - {fileID: 1713596061}
-  - {fileID: 1404302200}
-  - {fileID: 445782636}
-  - {fileID: 519678325}
-  - {fileID: 900727464}
-  - {fileID: 1048502989}
-  - {fileID: 491992976}
-  - {fileID: 1394544571}
-  - {fileID: 131170967}
-  - {fileID: 2097926322}
-  - {fileID: 1711608055}
-  - {fileID: 1894027218}
-  - {fileID: 655078764}
-  - {fileID: 1725937999}
-  - {fileID: 503385822}
-  - {fileID: 617508574}
-  - {fileID: 402316796}
-  - {fileID: 1559530066}
-  - {fileID: 1895387529}
-  - {fileID: 359976560}
-  - {fileID: 147349950}
-  - {fileID: 193258675}
-  - {fileID: 1229292973}
-  - {fileID: 1616887765}
-  - {fileID: 345176997}
-  - {fileID: 773690318}
-  - {fileID: 1746412903}
-  - {fileID: 2021754638}
-  - {fileID: 209115235}
-  - {fileID: 1224861761}
-  - {fileID: 1794071776}
-  - {fileID: 91106733}
-  - {fileID: 867091338}
-  - {fileID: 1173148711}
-  - {fileID: 1339295570}
-  - {fileID: 285539935}
-  - {fileID: 497906474}
-  - {fileID: 11620470}
-  - {fileID: 1595942363}
-  - {fileID: 1606050794}
-  - {fileID: 773223161}
-  - {fileID: 269089004}
-  - {fileID: 375578372}
-  - {fileID: 2106694043}
-  - {fileID: 1571582396}
-  - {fileID: 1999513709}
-  - {fileID: 1402405371}
-  - {fileID: 1433316971}
-  - {fileID: 504797134}
-  - {fileID: 2146139851}
-  - {fileID: 1097392872}
-  - {fileID: 679246333}
-  - {fileID: 650701457}
-  - {fileID: 422900026}
-  - {fileID: 1596382072}
-  - {fileID: 970386841}
-  - {fileID: 1411214277}
-  - {fileID: 381296080}
-  - {fileID: 195929955}
-  - {fileID: 1161101942}
-  - {fileID: 489417182}
-  - {fileID: 910522858}
-  - {fileID: 260582347}
-  - {fileID: 1710728756}
-  - {fileID: 1251752768}
-  - {fileID: 1695256566}
-  - {fileID: 1920142548}
-  - {fileID: 168081440}
-  - {fileID: 1912326268}
-  - {fileID: 1316692635}
-  - {fileID: 215915047}
-  - {fileID: 1888576178}
-  - {fileID: 1566334051}
-  - {fileID: 1658062442}
-  - {fileID: 916018513}
-  - {fileID: 1150102974}
-  - {fileID: 1748693409}
-  - {fileID: 863825079}
-  - {fileID: 2094122731}
-  - {fileID: 1120787137}
-  - {fileID: 678325872}
-  - {fileID: 1025396610}
-  - {fileID: 517213910}
-  - {fileID: 856369243}
-  - {fileID: 2096968463}
-  - {fileID: 670073638}
-  - {fileID: 342303405}
-  - {fileID: 1607601527}
-  - {fileID: 1695009320}
-  - {fileID: 1469875987}
-  - {fileID: 120167147}
-  - {fileID: 1376586838}
-  - {fileID: 1474084537}
-  - {fileID: 1659261030}
-  - {fileID: 1054696836}
-  - {fileID: 481508603}
-  - {fileID: 828415485}
-  - {fileID: 407410153}
-  - {fileID: 2092687098}
-  - {fileID: 603050468}
-  - {fileID: 537993736}
-  - {fileID: 198044486}
-  - {fileID: 1306676987}
-  - {fileID: 130061411}
-  - {fileID: 2005639045}
-  - {fileID: 1506010455}
-  - {fileID: 1073656515}
-  - {fileID: 655025722}
-  - {fileID: 1696165870}
-  - {fileID: 1652595569}
-  - {fileID: 1879903271}
-  - {fileID: 1144052788}
-  - {fileID: 2062532140}
-  - {fileID: 1592368834}
-  - {fileID: 243745219}
-  - {fileID: 549704794}
-  - {fileID: 2137745711}
-  - {fileID: 796911652}
-  - {fileID: 590457705}
-  - {fileID: 916274528}
-  - {fileID: 1589756083}
-  - {fileID: 1391187257}
-  - {fileID: 187941198}
-  - {fileID: 1407674984}
-  - {fileID: 1659750767}
-  - {fileID: 1961208968}
-  - {fileID: 1193534956}
-  - {fileID: 1495074001}
-  - {fileID: 20116865}
-  - {fileID: 827344045}
-  - {fileID: 678873795}
-  - {fileID: 2093254257}
-  - {fileID: 1606286820}
-  - {fileID: 1906115653}
-  - {fileID: 109727136}
-  - {fileID: 1695074911}
-  - {fileID: 637604334}
-  - {fileID: 1055469860}
-  - {fileID: 1781611019}
-  - {fileID: 1315026295}
-  - {fileID: 1271560005}
-  - {fileID: 698331766}
-  - {fileID: 400978515}
-  - {fileID: 965182783}
-  - {fileID: 72146806}
-  - {fileID: 1441625439}
-  - {fileID: 728803300}
-  - {fileID: 856804607}
-  - {fileID: 1181933639}
-  - {fileID: 2122325112}
-  - {fileID: 1855900908}
-  - {fileID: 1434718789}
-  - {fileID: 1057024329}
-  - {fileID: 622244637}
-  - {fileID: 1309582827}
-  - {fileID: 100528751}
-  - {fileID: 1964896805}
-  - {fileID: 1725019228}
-  - {fileID: 2043039701}
-  - {fileID: 1772299896}
-  - {fileID: 57804193}
-  - {fileID: 1856906444}
-  - {fileID: 1501110663}
-  - {fileID: 1044025378}
-  - {fileID: 161256884}
-  - {fileID: 387194525}
-  - {fileID: 2075366115}
-  - {fileID: 1388098997}
-  - {fileID: 2062327619}
-  - {fileID: 571070545}
-  - {fileID: 2138758027}
-  - {fileID: 924056935}
-  - {fileID: 948704814}
-  - {fileID: 704551448}
-  - {fileID: 65632528}
-  - {fileID: 636837047}
-  - {fileID: 829686528}
-  - {fileID: 1317832252}
-  - {fileID: 836959005}
-  - {fileID: 1887210811}
-  - {fileID: 1150771728}
-  - {fileID: 1283875570}
-  - {fileID: 1600378767}
-  - {fileID: 1256181776}
-  - {fileID: 1536847983}
-  - {fileID: 871632988}
-  - {fileID: 131223422}
-  - {fileID: 1844414334}
-  - {fileID: 1967372460}
-  - {fileID: 1648022786}
-  - {fileID: 1501985344}
-  - {fileID: 1188810220}
-  - {fileID: 991272803}
-  - {fileID: 1239305006}
-  - {fileID: 1412005219}
-  - {fileID: 1162284686}
-  - {fileID: 496891009}
-  - {fileID: 1222288909}
-  - {fileID: 2099088468}
-  - {fileID: 513332038}
-  - {fileID: 282634575}
   - {fileID: 1829445436}
+  - {fileID: 282634575}
+  - {fileID: 513332038}
+  - {fileID: 2099088468}
+  - {fileID: 1222288909}
+  - {fileID: 496891009}
+  - {fileID: 1162284686}
+  - {fileID: 1412005219}
+  - {fileID: 1239305006}
+  - {fileID: 991272803}
+  - {fileID: 1188810220}
+  - {fileID: 1501985344}
+  - {fileID: 1648022786}
+  - {fileID: 1967372460}
+  - {fileID: 1844414334}
+  - {fileID: 131223422}
+  - {fileID: 871632988}
+  - {fileID: 1536847983}
+  - {fileID: 1256181776}
+  - {fileID: 1600378767}
+  - {fileID: 1283875570}
+  - {fileID: 1150771728}
+  - {fileID: 1887210811}
+  - {fileID: 836959005}
+  - {fileID: 1317832252}
+  - {fileID: 829686528}
+  - {fileID: 636837047}
+  - {fileID: 65632528}
+  - {fileID: 704551448}
+  - {fileID: 948704814}
+  - {fileID: 924056935}
+  - {fileID: 2138758027}
+  - {fileID: 571070545}
+  - {fileID: 2062327619}
+  - {fileID: 1388098997}
+  - {fileID: 2075366115}
+  - {fileID: 387194525}
+  - {fileID: 161256884}
+  - {fileID: 1044025378}
+  - {fileID: 1501110663}
+  - {fileID: 1856906444}
+  - {fileID: 57804193}
+  - {fileID: 1772299896}
+  - {fileID: 2043039701}
+  - {fileID: 1725019228}
+  - {fileID: 1964896805}
+  - {fileID: 100528751}
+  - {fileID: 1309582827}
+  - {fileID: 622244637}
+  - {fileID: 1057024329}
+  - {fileID: 1434718789}
+  - {fileID: 1855900908}
+  - {fileID: 2122325112}
+  - {fileID: 1181933639}
+  - {fileID: 856804607}
+  - {fileID: 728803300}
+  - {fileID: 1441625439}
+  - {fileID: 72146806}
+  - {fileID: 965182783}
+  - {fileID: 400978515}
+  - {fileID: 698331766}
+  - {fileID: 1271560005}
+  - {fileID: 1315026295}
+  - {fileID: 1781611019}
+  - {fileID: 1055469860}
+  - {fileID: 637604334}
+  - {fileID: 1695074911}
+  - {fileID: 109727136}
+  - {fileID: 1906115653}
+  - {fileID: 1606286820}
+  - {fileID: 2093254257}
+  - {fileID: 678873795}
+  - {fileID: 827344045}
+  - {fileID: 20116865}
+  - {fileID: 1495074001}
+  - {fileID: 1193534956}
+  - {fileID: 1961208968}
+  - {fileID: 1659750767}
+  - {fileID: 1407674984}
+  - {fileID: 187941198}
+  - {fileID: 1391187257}
+  - {fileID: 1589756083}
+  - {fileID: 916274528}
+  - {fileID: 590457705}
+  - {fileID: 796911652}
+  - {fileID: 2137745711}
+  - {fileID: 549704794}
+  - {fileID: 243745219}
+  - {fileID: 1592368834}
+  - {fileID: 2062532140}
+  - {fileID: 1144052788}
+  - {fileID: 1879903271}
+  - {fileID: 1652595569}
+  - {fileID: 1696165870}
+  - {fileID: 655025722}
+  - {fileID: 1073656515}
+  - {fileID: 1506010455}
+  - {fileID: 2005639045}
+  - {fileID: 130061411}
+  - {fileID: 1306676987}
+  - {fileID: 198044486}
+  - {fileID: 537993736}
+  - {fileID: 603050468}
+  - {fileID: 2092687098}
+  - {fileID: 407410153}
+  - {fileID: 828415485}
+  - {fileID: 481508603}
+  - {fileID: 1054696836}
+  - {fileID: 1659261030}
+  - {fileID: 1474084537}
+  - {fileID: 1376586838}
+  - {fileID: 120167147}
+  - {fileID: 1469875987}
+  - {fileID: 1695009320}
+  - {fileID: 1607601527}
+  - {fileID: 342303405}
+  - {fileID: 670073638}
+  - {fileID: 2096968463}
+  - {fileID: 856369243}
+  - {fileID: 517213910}
+  - {fileID: 1025396610}
+  - {fileID: 678325872}
+  - {fileID: 1120787137}
+  - {fileID: 2094122731}
+  - {fileID: 863825079}
+  - {fileID: 1748693409}
+  - {fileID: 1150102974}
+  - {fileID: 916018513}
+  - {fileID: 1658062442}
+  - {fileID: 1566334051}
+  - {fileID: 1888576178}
+  - {fileID: 215915047}
+  - {fileID: 1316692635}
+  - {fileID: 1912326268}
+  - {fileID: 168081440}
+  - {fileID: 1920142548}
+  - {fileID: 1695256566}
+  - {fileID: 1251752768}
+  - {fileID: 1710728756}
+  - {fileID: 260582347}
+  - {fileID: 910522858}
+  - {fileID: 489417182}
+  - {fileID: 1161101942}
+  - {fileID: 195929955}
+  - {fileID: 381296080}
+  - {fileID: 1411214277}
+  - {fileID: 970386841}
+  - {fileID: 1596382072}
+  - {fileID: 422900026}
+  - {fileID: 650701457}
+  - {fileID: 679246333}
+  - {fileID: 1097392872}
+  - {fileID: 2146139851}
+  - {fileID: 504797134}
+  - {fileID: 1433316971}
+  - {fileID: 1402405371}
+  - {fileID: 1999513709}
+  - {fileID: 1571582396}
+  - {fileID: 2106694043}
+  - {fileID: 375578372}
+  - {fileID: 269089004}
+  - {fileID: 773223161}
+  - {fileID: 1606050794}
+  - {fileID: 1595942363}
+  - {fileID: 11620470}
+  - {fileID: 497906474}
+  - {fileID: 285539935}
+  - {fileID: 1339295570}
+  - {fileID: 1173148711}
+  - {fileID: 867091338}
+  - {fileID: 91106733}
+  - {fileID: 1794071776}
+  - {fileID: 1224861761}
+  - {fileID: 209115235}
+  - {fileID: 2021754638}
+  - {fileID: 1746412903}
+  - {fileID: 773690318}
+  - {fileID: 345176997}
+  - {fileID: 1616887765}
+  - {fileID: 1229292973}
+  - {fileID: 193258675}
+  - {fileID: 147349950}
+  - {fileID: 359976560}
+  - {fileID: 1895387529}
+  - {fileID: 1559530066}
+  - {fileID: 402316796}
+  - {fileID: 617508574}
+  - {fileID: 503385822}
+  - {fileID: 1725937999}
+  - {fileID: 655078764}
+  - {fileID: 1894027218}
+  - {fileID: 1711608055}
+  - {fileID: 2097926322}
+  - {fileID: 131170967}
+  - {fileID: 1394544571}
+  - {fileID: 491992976}
+  - {fileID: 1048502989}
+  - {fileID: 900727464}
+  - {fileID: 519678325}
+  - {fileID: 445782636}
+  - {fileID: 1404302200}
+  - {fileID: 1713596061}
+  - {fileID: 901959974}
+  - {fileID: 1057608885}
+  - {fileID: 1944952938}
+  - {fileID: 243744527}
+  - {fileID: 770673667}
+  - {fileID: 1555190144}
+  - {fileID: 1111641193}
+  - {fileID: 1963615330}
+  - {fileID: 617900383}
+  - {fileID: 1789127955}
+  - {fileID: 978509091}
+  - {fileID: 484286310}
+  - {fileID: 457476922}
+  - {fileID: 1853500991}
+  - {fileID: 1114461471}
+  - {fileID: 842783874}
+  - {fileID: 228168893}
+  - {fileID: 841826544}
+  - {fileID: 440415762}
+  - {fileID: 1995652621}
+  - {fileID: 923695131}
+  - {fileID: 1878817837}
+  - {fileID: 1947680637}
+  - {fileID: 469462189}
+  - {fileID: 1609636194}
+  - {fileID: 1398805424}
+  - {fileID: 507591265}
+  - {fileID: 1587522313}
+  - {fileID: 158501804}
+  - {fileID: 1515981890}
+  - {fileID: 1306111825}
+  - {fileID: 1857915401}
+  - {fileID: 1938779048}
+  - {fileID: 1225478036}
+  - {fileID: 1227410126}
+  - {fileID: 1271395371}
+  - {fileID: 1134390439}
+  - {fileID: 1358546066}
+  - {fileID: 1594364642}
+  - {fileID: 731564943}
+  - {fileID: 63597064}
+  - {fileID: 495578020}
+  - {fileID: 42561002}
+  - {fileID: 2142371982}
+  - {fileID: 804833071}
+  - {fileID: 2105472386}
+  - {fileID: 877734371}
+  - {fileID: 1527312782}
+  - {fileID: 849386614}
+  - {fileID: 947430750}
+  - {fileID: 98276746}
+  - {fileID: 432244775}
+  - {fileID: 792128608}
+  - {fileID: 1377433258}
+  - {fileID: 196564671}
+  - {fileID: 246447447}
+  - {fileID: 377240780}
+  - {fileID: 189611028}
+  - {fileID: 981375331}
+  - {fileID: 933824951}
+  - {fileID: 1078256109}
+  - {fileID: 579596372}
+  - {fileID: 1827723498}
+  - {fileID: 334203001}
+  - {fileID: 1950830697}
+  - {fileID: 162742236}
+  - {fileID: 1668188565}
+  - {fileID: 738813386}
+  - {fileID: 1652794417}
+  - {fileID: 1927156317}
+  - {fileID: 1709901755}
+  - {fileID: 36377060}
+  - {fileID: 2104924083}
+  - {fileID: 2134390451}
+  - {fileID: 1112746041}
+  - {fileID: 414027161}
+  - {fileID: 1362051641}
+  - {fileID: 1872519946}
+  - {fileID: 878023723}
+  - {fileID: 1088425590}
+  - {fileID: 1811262164}
+  - {fileID: 1744640144}
+  - {fileID: 2131829919}
+  - {fileID: 1061297840}
+  - {fileID: 2041026727}
+  - {fileID: 1980882558}
+  - {fileID: 13775350}
+  - {fileID: 801828903}
+  - {fileID: 1785544658}
+  - {fileID: 309851864}
+  - {fileID: 54210806}
+  - {fileID: 2064169845}
+  - {fileID: 2014875764}
+  - {fileID: 1433665770}
+  - {fileID: 252849707}
+  - {fileID: 838858664}
+  - {fileID: 223900388}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &842123469
@@ -17126,8 +17634,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &842783877
 SpriteRenderer:
@@ -17275,8 +17787,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &849386617
 SpriteRenderer:
@@ -17424,8 +17940,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &856369246
 SpriteRenderer:
@@ -17573,8 +18093,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &856804610
 SpriteRenderer:
@@ -17722,8 +18246,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &863825082
 SpriteRenderer:
@@ -17871,8 +18399,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &867091341
 SpriteRenderer:
@@ -18020,8 +18552,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &871632991
 SpriteRenderer:
@@ -18169,8 +18705,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &877734374
 SpriteRenderer:
@@ -18318,8 +18858,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &878023726
 SpriteRenderer:
@@ -18467,8 +19011,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &900727467
 SpriteRenderer:
@@ -18616,8 +19164,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &901959977
 SpriteRenderer:
@@ -18765,8 +19317,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &910522861
 SpriteRenderer:
@@ -18914,8 +19470,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &916018516
 SpriteRenderer:
@@ -19063,8 +19623,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &916274531
 SpriteRenderer:
@@ -19212,8 +19776,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &923695134
 SpriteRenderer:
@@ -19361,8 +19929,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &924056938
 SpriteRenderer:
@@ -19510,8 +20082,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &933824954
 SpriteRenderer:
@@ -19659,8 +20235,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &947430753
 SpriteRenderer:
@@ -19808,8 +20388,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &948704817
 SpriteRenderer:
@@ -19957,8 +20541,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &965182786
 SpriteRenderer:
@@ -20106,8 +20694,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &970386844
 SpriteRenderer:
@@ -20255,8 +20847,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &978509094
 SpriteRenderer:
@@ -20404,8 +21000,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &981375334
 SpriteRenderer:
@@ -20553,8 +21153,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &991272806
 SpriteRenderer:
@@ -20702,8 +21306,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1025396613
 SpriteRenderer:
@@ -20851,8 +21459,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1044025381
 SpriteRenderer:
@@ -21000,8 +21612,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1048502992
 SpriteRenderer:
@@ -21149,8 +21765,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1054696839
 SpriteRenderer:
@@ -21298,8 +21918,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1055469863
 SpriteRenderer:
@@ -21447,8 +22071,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1057024332
 SpriteRenderer:
@@ -21596,8 +22224,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1057608888
 SpriteRenderer:
@@ -21745,8 +22377,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1061297843
 SpriteRenderer:
@@ -21894,8 +22530,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1073656518
 SpriteRenderer:
@@ -22043,8 +22683,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1078256112
 SpriteRenderer:
@@ -22192,8 +22836,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1088425593
 SpriteRenderer:
@@ -22341,8 +22989,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1097392875
 SpriteRenderer:
@@ -22490,8 +23142,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1111641196
 SpriteRenderer:
@@ -22639,8 +23295,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1112746044
 SpriteRenderer:
@@ -22788,8 +23448,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1114461474
 SpriteRenderer:
@@ -22937,8 +23601,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1120787140
 SpriteRenderer:
@@ -23086,8 +23754,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1134390442
 SpriteRenderer:
@@ -23235,8 +23907,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1144052791
 SpriteRenderer:
@@ -23384,8 +24060,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1150102977
 SpriteRenderer:
@@ -23533,8 +24213,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1150771731
 SpriteRenderer:
@@ -23682,8 +24366,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1161101945
 SpriteRenderer:
@@ -23831,8 +24519,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1162284689
 SpriteRenderer:
@@ -23980,8 +24672,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1173148714
 SpriteRenderer:
@@ -24129,8 +24825,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1181933642
 SpriteRenderer:
@@ -24278,8 +24978,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1188810223
 SpriteRenderer:
@@ -24427,8 +25131,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1193534959
 SpriteRenderer:
@@ -24576,8 +25284,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1222288912
 SpriteRenderer:
@@ -24725,8 +25437,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1224861764
 SpriteRenderer:
@@ -24874,8 +25590,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1225478039
 SpriteRenderer:
@@ -25023,8 +25743,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1227410129
 SpriteRenderer:
@@ -25172,8 +25896,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1229292976
 SpriteRenderer:
@@ -25321,8 +26049,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1239305009
 SpriteRenderer:
@@ -25470,8 +26202,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1251752771
 SpriteRenderer:
@@ -25619,8 +26355,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1256181779
 SpriteRenderer:
@@ -25768,8 +26508,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1271395374
 SpriteRenderer:
@@ -25917,8 +26661,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1271560008
 SpriteRenderer:
@@ -26066,8 +26814,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1283875573
 SpriteRenderer:
@@ -26215,8 +26967,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1306111828
 SpriteRenderer:
@@ -26364,8 +27120,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1306676990
 SpriteRenderer:
@@ -26513,8 +27273,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1309582830
 SpriteRenderer:
@@ -26662,8 +27426,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1315026298
 SpriteRenderer:
@@ -26811,8 +27579,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1316692638
 SpriteRenderer:
@@ -26960,8 +27732,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1317832255
 SpriteRenderer:
@@ -27109,8 +27885,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1339295573
 SpriteRenderer:
@@ -27258,8 +28038,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1358546069
 SpriteRenderer:
@@ -27407,8 +28191,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1362051644
 SpriteRenderer:
@@ -27556,8 +28344,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1376586841
 SpriteRenderer:
@@ -27705,8 +28497,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1377433261
 SpriteRenderer:
@@ -27854,8 +28650,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1388099000
 SpriteRenderer:
@@ -28003,8 +28803,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1391187260
 SpriteRenderer:
@@ -28152,8 +28956,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1394544574
 SpriteRenderer:
@@ -28301,8 +29109,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1398805427
 SpriteRenderer:
@@ -28450,8 +29262,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1402405374
 SpriteRenderer:
@@ -28599,8 +29415,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1404302203
 SpriteRenderer:
@@ -28748,8 +29568,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1407674987
 SpriteRenderer:
@@ -28897,8 +29721,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1411214280
 SpriteRenderer:
@@ -29046,8 +29874,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1412005222
 SpriteRenderer:
@@ -29101,6 +29933,62 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1431300141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431300143}
+  - component: {fileID: 1431300142}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1431300142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431300141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543c233a124548c4ab852d92f867e670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 2340629631034634786, guid: 9a1414fcbb1373248bdabbe7b5a609bf, type: 3}
+  playersList: []
+  playersPosition:
+  - {x: -8.22, y: 4.5, z: 0}
+  - {x: 8.25, y: -4.47, z: 0}
+  platformLife:
+  - 1.5
+  - 1
+  - 0.5
+  - 0.25
+  playersToSpawn: 1
+  platformInterval: 5
+--- !u!4 &1431300143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431300141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.007038083, y: -0.5263536, z: 0.06436816}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1433316970
 GameObject:
   m_ObjectHideFlags: 0
@@ -29195,8 +30083,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1433316974
 SpriteRenderer:
@@ -29344,8 +30236,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1433665773
 SpriteRenderer:
@@ -29493,8 +30389,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1434718792
 SpriteRenderer:
@@ -29642,8 +30542,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1441625442
 SpriteRenderer:
@@ -29697,6 +30601,150 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1447801645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1447801649}
+  - component: {fileID: 1447801648}
+  - component: {fileID: 1447801647}
+  - component: {fileID: 1447801646}
+  m_Layer: 0
+  m_Name: Border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1447801646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447801645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d060f73431c659640ae8f0ffb88f47f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+--- !u!61 &1447801647
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447801645}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.19759008, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.60481983, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &1447801648
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447801645}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1447801649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447801645}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 10, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1469875986
 GameObject:
   m_ObjectHideFlags: 0
@@ -29791,8 +30839,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1469875990
 SpriteRenderer:
@@ -29940,8 +30992,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1474084540
 SpriteRenderer:
@@ -30089,8 +31145,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1495074004
 SpriteRenderer:
@@ -30238,8 +31298,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1501110666
 SpriteRenderer:
@@ -30387,8 +31451,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1501985347
 SpriteRenderer:
@@ -30536,8 +31604,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1506010458
 SpriteRenderer:
@@ -30685,8 +31757,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1515981893
 SpriteRenderer:
@@ -30834,8 +31910,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1527312785
 SpriteRenderer:
@@ -30983,8 +32063,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1536847986
 SpriteRenderer:
@@ -31132,8 +32216,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1555190147
 SpriteRenderer:
@@ -31281,8 +32369,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1559530069
 SpriteRenderer:
@@ -31430,8 +32522,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1566334054
 SpriteRenderer:
@@ -31579,8 +32675,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1571582399
 SpriteRenderer:
@@ -31728,8 +32828,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1587522316
 SpriteRenderer:
@@ -31877,8 +32981,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1589756086
 SpriteRenderer:
@@ -32026,8 +33134,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1592368837
 SpriteRenderer:
@@ -32175,8 +33287,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1594364645
 SpriteRenderer:
@@ -32324,8 +33440,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1595942366
 SpriteRenderer:
@@ -32473,8 +33593,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1596382075
 SpriteRenderer:
@@ -32622,8 +33746,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1600378770
 SpriteRenderer:
@@ -32771,8 +33899,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1606050797
 SpriteRenderer:
@@ -32920,8 +34052,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1606286823
 SpriteRenderer:
@@ -33069,8 +34205,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1607601530
 SpriteRenderer:
@@ -33218,8 +34358,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1609636197
 SpriteRenderer:
@@ -33273,6 +34417,150 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1609785224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609785228}
+  - component: {fileID: 1609785227}
+  - component: {fileID: 1609785226}
+  - component: {fileID: 1609785225}
+  m_Layer: 0
+  m_Name: Border (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1609785225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609785224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d060f73431c659640ae8f0ffb88f47f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+--- !u!61 &1609785226
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609785224}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.19141507}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.61716986}
+  m_EdgeRadius: 0
+--- !u!212 &1609785227
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609785224}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1609785228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609785224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.38, z: 0}
+  m_LocalScale: {x: 18, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1616887764
 GameObject:
   m_ObjectHideFlags: 0
@@ -33367,8 +34655,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1616887768
 SpriteRenderer:
@@ -33516,8 +34808,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1648022789
 SpriteRenderer:
@@ -33757,8 +35053,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1652595572
 SpriteRenderer:
@@ -33906,8 +35206,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1652794420
 SpriteRenderer:
@@ -34055,8 +35359,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1658062445
 SpriteRenderer:
@@ -34204,8 +35512,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1659261033
 SpriteRenderer:
@@ -34353,8 +35665,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1659750770
 SpriteRenderer:
@@ -34502,8 +35818,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1668188568
 SpriteRenderer:
@@ -34651,8 +35971,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1695009323
 SpriteRenderer:
@@ -34800,8 +36124,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1695074914
 SpriteRenderer:
@@ -34949,8 +36277,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1695256569
 SpriteRenderer:
@@ -35098,8 +36430,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1696165873
 SpriteRenderer:
@@ -35247,8 +36583,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1709901758
 SpriteRenderer:
@@ -35396,8 +36736,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1710728759
 SpriteRenderer:
@@ -35545,8 +36889,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1711608058
 SpriteRenderer:
@@ -35694,8 +37042,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1713596064
 SpriteRenderer:
@@ -35843,8 +37195,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1725019231
 SpriteRenderer:
@@ -35992,8 +37348,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1725938002
 SpriteRenderer:
@@ -36141,8 +37501,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1744640147
 SpriteRenderer:
@@ -36290,8 +37654,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1746412906
 SpriteRenderer:
@@ -36439,8 +37807,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1748693412
 SpriteRenderer:
@@ -36588,8 +37960,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1772299899
 SpriteRenderer:
@@ -36737,8 +38113,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1781611022
 SpriteRenderer:
@@ -36886,8 +38266,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1785544661
 SpriteRenderer:
@@ -37035,8 +38419,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1789127958
 SpriteRenderer:
@@ -37184,8 +38572,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1794071779
 SpriteRenderer:
@@ -37333,8 +38725,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1811262167
 SpriteRenderer:
@@ -37482,8 +38878,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1827723501
 SpriteRenderer:
@@ -37631,8 +39031,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1829445439
 SpriteRenderer:
@@ -37780,8 +39184,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1844414337
 SpriteRenderer:
@@ -37929,8 +39337,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1853500994
 SpriteRenderer:
@@ -38078,8 +39490,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1855900911
 SpriteRenderer:
@@ -38227,8 +39643,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1856906447
 SpriteRenderer:
@@ -38376,8 +39796,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1857915404
 SpriteRenderer:
@@ -38525,8 +39949,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1872519949
 SpriteRenderer:
@@ -38674,8 +40102,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1878817840
 SpriteRenderer:
@@ -38823,8 +40255,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1879903274
 SpriteRenderer:
@@ -38972,8 +40408,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1887210814
 SpriteRenderer:
@@ -39121,8 +40561,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1888576181
 SpriteRenderer:
@@ -39270,8 +40714,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1894027221
 SpriteRenderer:
@@ -39419,8 +40867,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1895387532
 SpriteRenderer:
@@ -39568,8 +41020,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1906115656
 SpriteRenderer:
@@ -39717,8 +41173,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1912326271
 SpriteRenderer:
@@ -39866,8 +41326,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1920142551
 SpriteRenderer:
@@ -40015,8 +41479,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1927156320
 SpriteRenderer:
@@ -40164,8 +41632,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1938779051
 SpriteRenderer:
@@ -40313,8 +41785,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1944952941
 SpriteRenderer:
@@ -40462,8 +41938,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1947680640
 SpriteRenderer:
@@ -40611,8 +42091,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1950830700
 SpriteRenderer:
@@ -40760,8 +42244,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1961208971
 SpriteRenderer:
@@ -40909,8 +42397,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1963615333
 SpriteRenderer:
@@ -41058,8 +42550,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1964896808
 SpriteRenderer:
@@ -41207,8 +42703,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1967372463
 SpriteRenderer:
@@ -41356,8 +42856,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1980882561
 SpriteRenderer:
@@ -41505,8 +43009,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1995652624
 SpriteRenderer:
@@ -41654,8 +43162,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1999513712
 SpriteRenderer:
@@ -41803,8 +43315,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2005639048
 SpriteRenderer:
@@ -41952,8 +43468,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2014875767
 SpriteRenderer:
@@ -42101,8 +43621,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2021754641
 SpriteRenderer:
@@ -42250,8 +43774,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2041026730
 SpriteRenderer:
@@ -42399,8 +43927,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2043039704
 SpriteRenderer:
@@ -42548,8 +44080,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2062327622
 SpriteRenderer:
@@ -42697,8 +44233,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2062532143
 SpriteRenderer:
@@ -42846,8 +44386,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2064169848
 SpriteRenderer:
@@ -42995,8 +44539,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2075366118
 SpriteRenderer:
@@ -43144,8 +44692,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2092687101
 SpriteRenderer:
@@ -43293,8 +44845,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2093254260
 SpriteRenderer:
@@ -43442,8 +44998,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2094122734
 SpriteRenderer:
@@ -43591,8 +45151,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2096968466
 SpriteRenderer:
@@ -43740,8 +45304,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2097926325
 SpriteRenderer:
@@ -43889,8 +45457,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2099088471
 SpriteRenderer:
@@ -44038,8 +45610,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2104924086
 SpriteRenderer:
@@ -44187,8 +45763,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2105472389
 SpriteRenderer:
@@ -44336,8 +45916,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2106694046
 SpriteRenderer:
@@ -44485,8 +46069,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2122325115
 SpriteRenderer:
@@ -44634,8 +46222,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2131829922
 SpriteRenderer:
@@ -44783,8 +46375,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2134390454
 SpriteRenderer:
@@ -44932,8 +46528,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2137745714
 SpriteRenderer:
@@ -45081,8 +46681,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2138758030
 SpriteRenderer:
@@ -45230,8 +46834,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2142371985
 SpriteRenderer:
@@ -45379,8 +46987,12 @@ MonoBehaviour:
   timeToDestroy: 0
   active: 0
   destroy: 0
+  killState: 0
   gameTimer: 0
   timer: 0
+  interval: 0
+  tf_spriteRenderer: {fileID: 0}
+  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2146139854
 SpriteRenderer:
@@ -45440,5 +47052,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 1650339912}
   - {fileID: 842123468}
-  - {fileID: 444768805}
-  - {fileID: 572532700}
+  - {fileID: 1447801649}
+  - {fileID: 451816469}
+  - {fileID: 1609785228}
+  - {fileID: 710868725}
+  - {fileID: 1431300143}

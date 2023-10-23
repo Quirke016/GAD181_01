@@ -9,12 +9,13 @@ public class TheFallMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 1;
     [SerializeField] private float playerX = -3.5f;
     [SerializeField] private float playerY = 1.5f;
+    public TheFallGameManager gameManager;
     
 
     // Start is called before the first frame update
     void Start()
     {
-          
+          gameManager = FindObjectOfType<TheFallGameManager>();
     }
 
     // Update is called once per frame
@@ -22,29 +23,61 @@ public class TheFallMovement : MonoBehaviour
     {
         player.transform.position = new Vector2(playerX, playerY);
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (gameManager.playersList[0])
         {
-            Debug.Log("W pressed");
-            PlayerOneMoveUp();
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                Debug.Log("W pressed");
+                PlayerOneMoveUp();
+            }
+
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                Debug.Log("S pressed");
+                PlayerOneMoveDown();
+            }
+
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                Debug.Log("D pressed");
+                PlayerOneMoveRight();
+            }
+
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                Debug.Log("A pressed");
+                PlayerOneMoveLeft();
+            }
+        }
+        
+        if (gameManager.playersList[0])
+        {
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                Debug.Log("Up pressed");
+                PlayerOneMoveUp();
+            }
+
+            if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                Debug.Log("Down pressed");
+                PlayerOneMoveDown();
+            }
+
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                Debug.Log("Right pressed");
+                PlayerOneMoveRight();
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                Debug.Log("Left pressed");
+                PlayerOneMoveLeft();
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            Debug.Log("S pressed");
-            PlayerOneMoveDown();
-        }
 
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            Debug.Log("D pressed");
-            PlayerOneMoveRight();
-        }
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Debug.Log("A pressed");
-            PlayerOneMoveLeft();
-        }
     }
 
     void PlayerOneMoveUp()
