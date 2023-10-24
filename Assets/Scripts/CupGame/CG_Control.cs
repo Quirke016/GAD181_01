@@ -24,7 +24,7 @@ public class CG_Control : MonoBehaviour
         if (col != null)
         {
             CG_Cup button = col.gameObject.GetComponent<CG_Cup>();
-            if (button != null)
+            if (button != null && button.selectTime == true) //
             {
                 button.ballSelected = true;
                 lastButton = button;
