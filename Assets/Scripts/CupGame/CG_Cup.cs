@@ -39,7 +39,7 @@ public class CG_Cup : MonoBehaviour
             }
             else if (ballSelected && !showTime && !selectTime)
             {
-                m_SpriteRenderer.material.color = Color.blue;
+                m_SpriteRenderer.color = Color.blue;
             }
             else
             {
