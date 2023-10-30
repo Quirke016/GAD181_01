@@ -28,6 +28,8 @@ public class CG_Shuffle : MonoBehaviour
 
     int[] moveCount;
 
+
+
    /* void GetCupList()
 
     {
@@ -625,7 +627,6 @@ public class CG_Shuffle : MonoBehaviour
                 
             }
             statues.text = "Guess";
-
             for (int i = 0; i < cupList.Count; i++)
             {
                 cupColors[i].selectTime = true;
@@ -635,7 +636,8 @@ public class CG_Shuffle : MonoBehaviour
             {
                 yield return null;
             }
-
+            statues.text = "Press space";
+            soundEffect.PlayRandomSound(1);
             for (int i = 0; i < cupList.Count; i++)
             {
                 cupColors[i].selectTime = false;
@@ -725,12 +727,13 @@ public class CG_Shuffle : MonoBehaviour
 
 
         StartCoroutine(MoveToTarget(t, startLoc + distance, duration / 2));
-
+        soundEffect.PlayRandomSound(0);
 
 
         yield return new WaitForSeconds(duration / 2);
 
         StartCoroutine(MoveToTarget(t, endLoc, duration / 2));
+        soundEffect.PlayRandomSound(0);
 
     }
 
@@ -800,14 +803,19 @@ public class CG_Shuffle : MonoBehaviour
 
 
 
-
+    CG_SoundEffect soundEffect;
 
     // Start is called before the first frame update
 
     void Start()
 
     {
+        // this is to get refence to gameobject that has soundeffect script
+        GameObject myGameObject = GameObject.Find("SoundEffects");
+        soundEffect = myGameObject.GetComponent<CG_SoundEffect>();
         
+
+
         statuesBool = false;
         cupWithBall = 1;
         AddNewCupPrefab();
@@ -901,7 +909,8 @@ public class CG_Shuffle : MonoBehaviour
 
             statuesBool = true;
             statues.text = "Press space";
-            StartCoroutine(StartRound(1f));
+            soundEffect.PlayRandomSound(1);
+            StartCoroutine(StartRound(2.5f));
 
 
 
@@ -913,6 +922,16 @@ public class CG_Shuffle : MonoBehaviour
         {
 
             AddNewCupPrefab();
+
+
+
+        }
+        
+        if (Input.GetKeyDown(KeyCode.P))
+
+        {
+
+            soundEffect.PlayRandomSound(0);
 
 
 

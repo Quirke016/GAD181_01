@@ -11,15 +11,50 @@ public class CG_Control : MonoBehaviour
     void Start()
     {
 
+        xyOffSet = new Vector3(0.335f, 0.36f, 0f);
+        nxyOffSet = new Vector3(-0.335f, 0.36f, 0f);
     }
 
+    Vector3 xyOffSet;
+    Vector3 nxyOffSet;
     // Update is called once per frame
     void Update()
     {
+
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = Camera.main.nearClipPlane;
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
-        transform.position = worldPosition;
+
+
+        float distanceFromMid = 0.5f;
+
+
+
+        if (worldPosition.x > 0)
+        {
+
+            transform.position = worldPosition - nxyOffSet;
+            transform.localScale = new Vector3(-0.5f, transform.localScale.y, transform.localScale.z);
+
+        }
+        else
+        {
+            transform.position = worldPosition - xyOffSet;
+            transform.localScale = new Vector3(0.5f, transform.localScale.y, transform.localScale.z);
+        }
+
+
+        if ((distanceFromMid * -1) < worldPosition.x && worldPosition.x < distanceFromMid)
+        {
+            Debug.Log("work6s");
+            
+            transform.localScale = new Vector3(transform.position.x * -0.5f, transform.localScale.y, transform.localScale.z);
+            transform.position = worldPosition - new Vector3(nxyOffSet.x* transform.position.x, nxyOffSet.y, 0);
+            //transform.position = transform.position* transform.position.x;
+        }
+
+
+
         Collider2D col = Physics2D.OverlapPoint(transform.position);
         if (col != null)
         {
