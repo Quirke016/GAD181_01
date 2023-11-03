@@ -336,7 +336,11 @@ public class CG_Shuffle : MonoBehaviour
 
 
 
-
+    /// <summary>
+    /// this funsiton is to calculate, the number of time each cup will move
+    /// then it will asign that number to each cup
+    /// </summary>
+    /// <returns></returns>
     int[] MoveCupCalaures()
 
     {
@@ -502,7 +506,12 @@ public class CG_Shuffle : MonoBehaviour
     }
 
 
-
+   /// <summary>
+   /// this is funstion that will run in the back ground it is the loop
+   /// for cup swaping.
+   /// </summary>
+   /// <param name="duration"></param>
+   /// <returns></returns>
     IEnumerator CupSwaperLoop(float duration)
 
     {
@@ -579,10 +588,23 @@ public class CG_Shuffle : MonoBehaviour
         }
 
     }
-    bool revalCup = true;
+
+    
+
+
+    /// <summary>
+    /// this funstion is for starting the round
+    /// it has a input of duration for how long the enermy round will last
+    /// </summary>
+    /// <param name="duration"></param>
+    /// <returns></returns>
     IEnumerator StartRound(float duration)
 
     {
+        AddNewCupPrefab();
+        yield return new WaitForSeconds(0.25f);
+
+        soundEffect.PlayRandomSound(1);
         cupColors[cupWithBall].ballUnderThis = true;
 
 
@@ -593,8 +615,10 @@ public class CG_Shuffle : MonoBehaviour
         GiveCupNumbers(cupList.Count);
 
 
-        // this funstion is to reavel the cup with the ball under
-        if (revalCup)
+
+
+        // this funstion is to reveal the cup with the ball under
+        if (revealCup)
         {
             
 
@@ -614,8 +638,8 @@ public class CG_Shuffle : MonoBehaviour
         StartCoroutine(CupSwaperLoop(duration));
 
 
-        // this funstion is to reavel the cup with the ball under
-        if (revalCup)
+        // this funstion is to 6 the cup with the ball under
+        if (revealCup)
         {
 
             statues.text = "wait";
@@ -664,16 +688,24 @@ public class CG_Shuffle : MonoBehaviour
         }
 
         cupColors[cupWithBall].ballUnderThis = false;
-        AddNewCupPrefab();
+        
         statues.text = "press K";
         statuesBool = false;
 
 
     }
 
+
+    //for if the cup with ball under it is reveald or hidden
+    bool revealCup = true;
+    // this int that is for the cup that the ball is under
     int cupWithBall;
 
-
+    /// <summary>
+    /// this is for swaping the two cup in the movingCups array
+    /// it will do this within the duration proved
+    /// </summary>
+    /// <param name="duration"></param>
     void CupSwaper(float duration)
 
     {
@@ -706,6 +738,18 @@ public class CG_Shuffle : MonoBehaviour
 
 
 
+    /// <summary>
+    /// this funstion is actile moving for swaping hte cup
+    /// you input in 2 locstion, loction 1 is were the cup will move to
+    /// location 2 is the end lociton
+    /// durastion the time it iwll take to do this move 
+    /// </summary>
+    /// <param name="t"></param>
+    /// <param name="startLoc"></param>
+    /// <param name="endLoc"></param>
+    /// <param name="duration"></param>
+    /// <param name="topOrBotton"></param>
+    /// <returns></returns>
     IEnumerator MoveCupSwap(Transform t, Vector2 startLoc, Vector2 endLoc, float duration, bool topOrBotton = true)
 
     {
@@ -752,7 +796,14 @@ public class CG_Shuffle : MonoBehaviour
 
 
 
-
+    /// <summary>
+    /// this funstion allow you to move a trastiom to
+    /// a location, within the duratsion given
+    /// </summary>
+    /// <param name="t"></param>
+    /// <param name="target"></param>
+    /// <param name="duration"></param>
+    /// <returns></returns>
     IEnumerator MoveToTarget(Transform t, Vector2 target, float duration)
 
     {
@@ -790,18 +841,14 @@ public class CG_Shuffle : MonoBehaviour
 
 
 
+ 
+    void RevealTheCup(Transform t)
+    {
+         
+    }
 
 
-
-
-
-
-
-
-
-
-
-
+    
 
     CG_SoundEffect soundEffect;
 
@@ -909,7 +956,7 @@ public class CG_Shuffle : MonoBehaviour
 
             statuesBool = true;
             statues.text = "Press space";
-            soundEffect.PlayRandomSound(1);
+            
             StartCoroutine(StartRound(2.5f));
 
 

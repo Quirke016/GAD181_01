@@ -106,6 +106,8 @@ MonoBehaviour:
   testing: 0
   cupUp: {fileID: -443617755, guid: b7dbff0eec3f3e5448b2a8a46c2b9411, type: 3}
   cupDown: {fileID: 880069908, guid: b7dbff0eec3f3e5448b2a8a46c2b9411, type: 3}
+  beingRevaled: 0
+  ballPrefab: {fileID: 1967756755262804769, guid: c7614d9b64ab88040a877e7846ea5731, type: 3}
 --- !u!61 &3302692108388108325
 BoxCollider2D:
   m_ObjectHideFlags: 0
