@@ -6,10 +6,18 @@ using UnityEngine.InputSystem;
 
 public class CG_Control : MonoBehaviour
 {
+    public int timeScore;
+    public int timesCheated;
+
+    public CG_Shuffle shuffleScript;
+
+
     CG_Cup lastButton = null;
     // Start is called before the first frame update
     void Start()
     {
+        shuffleScript = GameObject.Find("Table").GetComponent<CG_Shuffle>(); // Get the renfenct to stuffle script component 
+
 
         xyOffSet = new Vector3(0.335f, 0.36f, 0f);
         nxyOffSet = new Vector3(-0.335f, 0.36f, 0f);
@@ -20,6 +28,9 @@ public class CG_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        bool showTimeC = shuffleScript.cupColors[0].showTime;
+        bool selectTimeC = shuffleScript.cupColors[0].selectTime;
+
 
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = Camera.main.nearClipPlane;
@@ -58,22 +69,56 @@ public class CG_Control : MonoBehaviour
         Collider2D col = Physics2D.OverlapPoint(transform.position);
         if (col != null)
         {
-            CG_Cup button = col.gameObject.GetComponent<CG_Cup>();
-            if (button != null && button.selectTime == true) //
+            CG_Cup cgCup = col.gameObject.GetComponent<CG_Cup>();
+
+            
+
+
+
+            if (cgCup != null && cgCup.selectTime == true) //
             {
-                button.ballSelected = true;
-                lastButton = button;
+                cgCup.ballSelected = true;
+                lastButton = cgCup;
+
+
+                
             }
             else
             {
                 if (lastButton != null)
                     lastButton.ballSelected = false;
             }
+
+
+            //check to see if you go the ext round with the cup withb the ballunder selected
+            if (Input.GetKeyDown(KeyCode.Space) && cgCup.ballUnderThis && cgCup != null && cgCup.ballSelected)
+            {
+                timeScore += 1;
+                Debug.Log("Points Scored is " + timeScore);
+
+
+            }
+
+
+
         }
         else
         {
             if (lastButton != null)
                 lastButton.ballSelected = false;
         }
+
+
+
+        if (Input.GetKeyDown(KeyCode.M) && selectTimeC && !showTimeC)
+        {
+            timesCheated += 1;
+            Debug.Log("times cheat is " + timesCheated);
+        }
+
+
+        Debug.Log("test02  ShowTime " + showTimeC + "     SelectTime " + selectTimeC);
+
+
     }
 }

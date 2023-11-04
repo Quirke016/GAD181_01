@@ -148,9 +148,8 @@ public class CG_Cup : MonoBehaviour
     
 
 
-        if (Input.GetKeyDown(KeyCode.M) && (!showTime && selectTime && ballSelected))
+        if (Input.GetKeyDown(KeyCode.M) && (!showTime && selectTime)) // && ballSelected
         {
-            
             StartCoroutine(RevealBehind());
 
         }
