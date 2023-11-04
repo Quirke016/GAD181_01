@@ -90,6 +90,7 @@ public class CG_Control : MonoBehaviour
             }
 
 
+
             //check to see if you go the ext round with the cup withb the ballunder selected
             if (Input.GetKeyDown(KeyCode.Space) && cgCup.ballUnderThis && cgCup != null && cgCup.ballSelected)
             {
