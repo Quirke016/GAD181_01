@@ -642,7 +642,10 @@ public class CG_Shuffle : MonoBehaviour
         if (revealCup)
         {
 
-            statues.text = "wait";
+            /*  statues.text = "wait";*/
+            float inputTest = (duration + 0.3f);
+            StartCoroutine(CountdownCoroutine(statues, inputTest));
+
 
             yield return new WaitForSeconds(duration+0.5f);
             for (int i = 0; i < cupList.Count; i++)
@@ -787,7 +790,32 @@ public class CG_Shuffle : MonoBehaviour
 
 
 
+    private IEnumerator CountdownCoroutine(TextMeshProUGUI countdownText, float duration)
+    {
+        // Get the start time of the countdown
+        float startTime = Time.time;
 
+        // Loop until the duration is over
+        while (Time.time - startTime < duration)
+        {
+            // Calculate the remaining time in seconds and milliseconds
+            float remainingTime = duration - (Time.time - startTime);
+            int seconds = (int)remainingTime;
+            int milliseconds = (int)((remainingTime - seconds) * 1000);
+
+            // Format the remaining time as a string
+            string timeString = string.Format("{0:00}:{1:000}", seconds, milliseconds);
+
+            // Update the text component with the remaining time
+            countdownText.text = timeString;
+
+            // Yield until the next frame
+            yield return null;
+        }
+
+        // Set the text component to zero when the countdown is over
+        countdownText.text = "00:000";
+    }
 
 
 
@@ -988,6 +1016,10 @@ public class CG_Shuffle : MonoBehaviour
 
 
 
-    
+
 
 }
+
+
+
+
