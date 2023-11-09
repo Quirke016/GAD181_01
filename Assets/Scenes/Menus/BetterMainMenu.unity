@@ -600,12 +600,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 357a407184ce4e142aecddc0396d8539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiltLeft: 0
-  tiltRight: 0
+  tiltLeft: 1
+  tiltRight: 1
   title: {fileID: 640214408}
-  levelSelectorName: 
-  settingsLevelName: 
-  creditsScreenName: 
+  levelSelectorName: LevelSelect
+  settingsLevelName: SettingsMenu
+  creditsScreenName: CreditsMenu
   mainMenuName: BetterMainMenu
   timer: {fileID: 0}
 --- !u!1 &492696339
@@ -1469,14 +1469,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5810733, g: 0.8018868, b: 0.5194612, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9d2bcca474e7d8e47b3e8d5cb8022d7e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
