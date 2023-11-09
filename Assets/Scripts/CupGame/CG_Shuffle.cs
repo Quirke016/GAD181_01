@@ -901,7 +901,7 @@ public class CG_Shuffle : MonoBehaviour
 
             statuesBool = true;
             statues.text = "Press space";
-            StartCoroutine(StartRound(1f));
+            StartCoroutine(StartRound(2.5f));
 
 
 
