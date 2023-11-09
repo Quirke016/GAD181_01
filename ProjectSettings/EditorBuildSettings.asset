@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 28f1782ab3bab284aa6267cfd5dce9c8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nathan's Crouching Mini Game.unity
     guid: 5e6a247c7cbb99d4888fa59ad9f39c8e
+  - enabled: 1
+    path: Assets/Scenes/CupGame.unity
+    guid: 85f22a8e7a3d56d4395eef60fdf5855b
   m_configObjects: {}

@@ -25,7 +25,7 @@ public class CG_Control : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        shuffleScript = GameObject.Find("Table").GetComponent<CG_Shuffle>(); // Get the renfenct to stuffle script component 
+        
         hp = 3;
 
         xyOffSet = new Vector3(0.335f, 0.36f, 0f);
@@ -46,6 +46,7 @@ public class CG_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        shuffleScript = GameObject.Find("Table").GetComponent<CG_Shuffle>(); // Get the renfenct to stuffle script component 
         bool showTimeC = shuffleScript.cupColors[0].showTime;
         bool selectTimeC = shuffleScript.cupColors[0].selectTime;
 
@@ -156,12 +157,12 @@ public class CG_Control : MonoBehaviour
 
 
 
-            if (Input.GetKeyDown(KeyCode.M) && selectTimeC && !showTimeC)
+            if (Input.GetKeyDown(KeyCode.M) && selectTimeC && hp > 0)
             {
                 timesCheated += 1;
                 if (timesCheated > 1)
                 {
-                    timeScore -= 1;
+                    hp -= 1;
                 }
 
                 Debug.Log("times cheat is " + timesCheated);
