@@ -6,6 +6,7 @@ using UnityEngine;
 public class TheFallMovement : MonoBehaviour
 {
     [SerializeField] private GameObject player;
+    [SerializeField] private SpriteRenderer playerRenderer;
     [SerializeField] private float moveSpeed = 1;
     [SerializeField] private float playerX = -3.5f;
     [SerializeField] private float playerY = 1.5f;
@@ -42,12 +43,20 @@ public class TheFallMovement : MonoBehaviour
             {
                 Debug.Log("D pressed");
                 PlayerOneMoveRight();
+                if (playerRenderer.flipX == true)
+                {
+                    playerRenderer.flipX = false;
+                }
             }
 
             if (Input.GetKeyDown(KeyCode.A))
             {
                 Debug.Log("A pressed");
                 PlayerOneMoveLeft();
+                if (playerRenderer.flipX == false)
+                {
+                    playerRenderer.flipX = true;
+                }
             }
         }
         

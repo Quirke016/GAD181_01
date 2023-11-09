@@ -223,7 +223,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &11620473
 SpriteRenderer:
@@ -377,7 +376,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &13775353
 SpriteRenderer:
@@ -531,7 +529,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &20116868
 SpriteRenderer:
@@ -685,7 +682,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &36377063
 SpriteRenderer:
@@ -839,7 +835,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &42561005
 SpriteRenderer:
@@ -993,7 +988,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &54210809
 SpriteRenderer:
@@ -1147,7 +1141,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &57804196
 SpriteRenderer:
@@ -1301,7 +1294,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &63597067
 SpriteRenderer:
@@ -1455,7 +1447,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &65632531
 SpriteRenderer:
@@ -1609,7 +1600,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &72146809
 SpriteRenderer:
@@ -1763,7 +1753,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &91106736
 SpriteRenderer:
@@ -1917,7 +1906,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &98276749
 SpriteRenderer:
@@ -2071,7 +2059,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &100528754
 SpriteRenderer:
@@ -2225,7 +2212,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &109727139
 SpriteRenderer:
@@ -2379,7 +2365,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &120167150
 SpriteRenderer:
@@ -2533,7 +2518,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &130061414
 SpriteRenderer:
@@ -2687,7 +2671,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &131170970
 SpriteRenderer:
@@ -2841,7 +2824,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &131223425
 SpriteRenderer:
@@ -2995,7 +2977,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &147349953
 SpriteRenderer:
@@ -3149,7 +3130,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &158501807
 SpriteRenderer:
@@ -3303,7 +3283,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &161256887
 SpriteRenderer:
@@ -3457,7 +3436,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &162742239
 SpriteRenderer:
@@ -3611,7 +3589,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &168081443
 SpriteRenderer:
@@ -3765,7 +3742,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &187941201
 SpriteRenderer:
@@ -3919,7 +3895,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &189611031
 SpriteRenderer:
@@ -4073,7 +4048,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &193258678
 SpriteRenderer:
@@ -4227,7 +4201,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &195929958
 SpriteRenderer:
@@ -4381,7 +4354,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &196564674
 SpriteRenderer:
@@ -4535,7 +4507,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &198044489
 SpriteRenderer:
@@ -4689,7 +4660,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &209115238
 SpriteRenderer:
@@ -4843,7 +4813,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &215915050
 SpriteRenderer:
@@ -4997,7 +4966,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &223900391
 SpriteRenderer:
@@ -5151,7 +5119,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &228168896
 SpriteRenderer:
@@ -5305,7 +5272,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &243744530
 SpriteRenderer:
@@ -5459,7 +5425,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &243745222
 SpriteRenderer:
@@ -5613,7 +5578,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &246447450
 SpriteRenderer:
@@ -5767,7 +5731,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &252849710
 SpriteRenderer:
@@ -5921,7 +5884,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &260582350
 SpriteRenderer:
@@ -6075,7 +6037,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &269089007
 SpriteRenderer:
@@ -6229,7 +6190,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &282634578
 SpriteRenderer:
@@ -6383,7 +6343,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &285539938
 SpriteRenderer:
@@ -6537,7 +6496,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &309851867
 SpriteRenderer:
@@ -6691,7 +6649,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &334203004
 SpriteRenderer:
@@ -6845,7 +6802,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &342303408
 SpriteRenderer:
@@ -6999,7 +6955,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &345177000
 SpriteRenderer:
@@ -7153,7 +7108,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &359976563
 SpriteRenderer:
@@ -7307,7 +7261,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &375578375
 SpriteRenderer:
@@ -7461,7 +7414,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &377240783
 SpriteRenderer:
@@ -7615,7 +7567,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &381296083
 SpriteRenderer:
@@ -7769,7 +7720,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &387194528
 SpriteRenderer:
@@ -7923,7 +7873,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &400978518
 SpriteRenderer:
@@ -8077,7 +8026,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &402316799
 SpriteRenderer:
@@ -8231,7 +8179,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &407410156
 SpriteRenderer:
@@ -8385,7 +8332,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &414027164
 SpriteRenderer:
@@ -8539,7 +8485,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &422900029
 SpriteRenderer:
@@ -8693,7 +8638,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &432244778
 SpriteRenderer:
@@ -8847,7 +8791,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &440415765
 SpriteRenderer:
@@ -9001,7 +8944,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &445782639
 SpriteRenderer:
@@ -9086,7 +9028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d060f73431c659640ae8f0ffb88f47f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!61 &451816467
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9299,7 +9241,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &457476925
 SpriteRenderer:
@@ -9453,7 +9394,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &469462192
 SpriteRenderer:
@@ -9607,7 +9547,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &481508606
 SpriteRenderer:
@@ -9761,7 +9700,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &484286313
 SpriteRenderer:
@@ -9915,7 +9853,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &489417185
 SpriteRenderer:
@@ -10069,7 +10006,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &491992979
 SpriteRenderer:
@@ -10223,7 +10159,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &495578023
 SpriteRenderer:
@@ -10377,7 +10312,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &496891012
 SpriteRenderer:
@@ -10531,7 +10465,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &497906477
 SpriteRenderer:
@@ -10685,7 +10618,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &503385825
 SpriteRenderer:
@@ -10839,7 +10771,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &504797137
 SpriteRenderer:
@@ -10993,7 +10924,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &507591268
 SpriteRenderer:
@@ -11147,7 +11077,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &513332041
 SpriteRenderer:
@@ -11301,7 +11230,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &517213913
 SpriteRenderer:
@@ -11455,7 +11383,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &519678328
 SpriteRenderer:
@@ -11609,7 +11536,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &537993739
 SpriteRenderer:
@@ -11763,7 +11689,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &549704797
 SpriteRenderer:
@@ -11917,7 +11842,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &571070548
 SpriteRenderer:
@@ -12071,7 +11995,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &579596375
 SpriteRenderer:
@@ -12225,7 +12148,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &590457708
 SpriteRenderer:
@@ -12379,7 +12301,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &603050471
 SpriteRenderer:
@@ -12533,7 +12454,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &617508577
 SpriteRenderer:
@@ -12687,7 +12607,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &617900386
 SpriteRenderer:
@@ -12841,7 +12760,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &622244640
 SpriteRenderer:
@@ -12995,7 +12913,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &636837050
 SpriteRenderer:
@@ -13149,7 +13066,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &637604337
 SpriteRenderer:
@@ -13303,7 +13219,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &650701460
 SpriteRenderer:
@@ -13457,7 +13372,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &655025725
 SpriteRenderer:
@@ -13611,7 +13525,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &655078767
 SpriteRenderer:
@@ -13765,7 +13678,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &670073641
 SpriteRenderer:
@@ -13919,7 +13831,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &678325875
 SpriteRenderer:
@@ -14073,7 +13984,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &678873798
 SpriteRenderer:
@@ -14227,7 +14137,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &679246336
 SpriteRenderer:
@@ -14381,7 +14290,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &698331769
 SpriteRenderer:
@@ -14535,7 +14443,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &704551451
 SpriteRenderer:
@@ -14620,7 +14527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d060f73431c659640ae8f0ffb88f47f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!61 &710868723
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14833,7 +14740,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &728803303
 SpriteRenderer:
@@ -14987,7 +14893,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &731564946
 SpriteRenderer:
@@ -15141,7 +15046,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &738813389
 SpriteRenderer:
@@ -15295,7 +15199,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &770673670
 SpriteRenderer:
@@ -15449,7 +15352,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &773223164
 SpriteRenderer:
@@ -15603,7 +15505,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &773690321
 SpriteRenderer:
@@ -15757,7 +15658,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &792128611
 SpriteRenderer:
@@ -15911,7 +15811,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &796911655
 SpriteRenderer:
@@ -16065,7 +15964,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &801828906
 SpriteRenderer:
@@ -16219,7 +16117,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &804833074
 SpriteRenderer:
@@ -16373,7 +16270,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &827344048
 SpriteRenderer:
@@ -16527,7 +16423,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &828415488
 SpriteRenderer:
@@ -16681,7 +16576,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &829686531
 SpriteRenderer:
@@ -16835,7 +16729,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &836959008
 SpriteRenderer:
@@ -16989,7 +16882,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &838858667
 SpriteRenderer:
@@ -17143,7 +17035,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &841826547
 SpriteRenderer:
@@ -17237,7 +17128,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &842123467
 SpriteRenderer:
@@ -17750,7 +17640,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &842783877
 SpriteRenderer:
@@ -17904,7 +17793,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &849386617
 SpriteRenderer:
@@ -18058,7 +17946,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &856369246
 SpriteRenderer:
@@ -18212,7 +18099,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &856804610
 SpriteRenderer:
@@ -18366,7 +18252,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &863825082
 SpriteRenderer:
@@ -18520,7 +18405,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &867091341
 SpriteRenderer:
@@ -18674,7 +18558,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &871632991
 SpriteRenderer:
@@ -18828,7 +18711,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &877734374
 SpriteRenderer:
@@ -18982,7 +18864,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &878023726
 SpriteRenderer:
@@ -19136,7 +19017,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &900727467
 SpriteRenderer:
@@ -19290,7 +19170,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &901959977
 SpriteRenderer:
@@ -19444,7 +19323,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &910522861
 SpriteRenderer:
@@ -19598,7 +19476,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &916018516
 SpriteRenderer:
@@ -19752,7 +19629,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &916274531
 SpriteRenderer:
@@ -19906,7 +19782,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &923695134
 SpriteRenderer:
@@ -20060,7 +19935,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &924056938
 SpriteRenderer:
@@ -20214,7 +20088,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &933824954
 SpriteRenderer:
@@ -20368,7 +20241,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &947430753
 SpriteRenderer:
@@ -20522,7 +20394,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &948704817
 SpriteRenderer:
@@ -20676,7 +20547,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &965182786
 SpriteRenderer:
@@ -20830,7 +20700,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &970386844
 SpriteRenderer:
@@ -20984,7 +20853,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &978509094
 SpriteRenderer:
@@ -21138,7 +21006,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &981375334
 SpriteRenderer:
@@ -21292,7 +21159,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &991272806
 SpriteRenderer:
@@ -21446,7 +21312,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1025396613
 SpriteRenderer:
@@ -21600,7 +21465,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1044025381
 SpriteRenderer:
@@ -21754,7 +21618,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1048502992
 SpriteRenderer:
@@ -21908,7 +21771,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1054696839
 SpriteRenderer:
@@ -22062,7 +21924,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1055469863
 SpriteRenderer:
@@ -22216,7 +22077,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1057024332
 SpriteRenderer:
@@ -22370,7 +22230,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1057608888
 SpriteRenderer:
@@ -22524,7 +22383,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1061297843
 SpriteRenderer:
@@ -22678,7 +22536,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1073656518
 SpriteRenderer:
@@ -22832,7 +22689,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1078256112
 SpriteRenderer:
@@ -22986,7 +22842,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1088425593
 SpriteRenderer:
@@ -23140,7 +22995,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1097392875
 SpriteRenderer:
@@ -23294,7 +23148,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1111641196
 SpriteRenderer:
@@ -23448,7 +23301,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1112746044
 SpriteRenderer:
@@ -23602,7 +23454,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1114461474
 SpriteRenderer:
@@ -23756,7 +23607,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1120787140
 SpriteRenderer:
@@ -23910,7 +23760,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1134390442
 SpriteRenderer:
@@ -24064,7 +23913,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1144052791
 SpriteRenderer:
@@ -24218,7 +24066,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1150102977
 SpriteRenderer:
@@ -24372,7 +24219,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1150771731
 SpriteRenderer:
@@ -24526,7 +24372,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1161101945
 SpriteRenderer:
@@ -24680,7 +24525,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1162284689
 SpriteRenderer:
@@ -24834,7 +24678,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1173148714
 SpriteRenderer:
@@ -24988,7 +24831,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1181933642
 SpriteRenderer:
@@ -25142,7 +24984,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1188810223
 SpriteRenderer:
@@ -25296,7 +25137,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1193534959
 SpriteRenderer:
@@ -25450,7 +25290,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1222288912
 SpriteRenderer:
@@ -25604,7 +25443,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1224861764
 SpriteRenderer:
@@ -25758,7 +25596,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1225478039
 SpriteRenderer:
@@ -25912,7 +25749,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1227410129
 SpriteRenderer:
@@ -26066,7 +25902,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1229292976
 SpriteRenderer:
@@ -26220,7 +26055,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1239305009
 SpriteRenderer:
@@ -26374,7 +26208,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1251752771
 SpriteRenderer:
@@ -26528,7 +26361,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1256181779
 SpriteRenderer:
@@ -26682,7 +26514,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1271395374
 SpriteRenderer:
@@ -26836,7 +26667,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1271560008
 SpriteRenderer:
@@ -26990,7 +26820,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1283875573
 SpriteRenderer:
@@ -27144,7 +26973,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1306111828
 SpriteRenderer:
@@ -27298,7 +27126,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1306676990
 SpriteRenderer:
@@ -27452,7 +27279,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1309582830
 SpriteRenderer:
@@ -27606,7 +27432,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1315026298
 SpriteRenderer:
@@ -27760,7 +27585,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1316692638
 SpriteRenderer:
@@ -27914,7 +27738,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1317832255
 SpriteRenderer:
@@ -28068,7 +27891,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1339295573
 SpriteRenderer:
@@ -28222,7 +28044,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1358546069
 SpriteRenderer:
@@ -28376,7 +28197,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1362051644
 SpriteRenderer:
@@ -28530,7 +28350,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1376586841
 SpriteRenderer:
@@ -28684,7 +28503,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1377433261
 SpriteRenderer:
@@ -28838,7 +28656,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1388099000
 SpriteRenderer:
@@ -28992,7 +28809,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1391187260
 SpriteRenderer:
@@ -29146,7 +28962,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1394544574
 SpriteRenderer:
@@ -29300,7 +29115,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1398805427
 SpriteRenderer:
@@ -29454,7 +29268,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1402405374
 SpriteRenderer:
@@ -29608,7 +29421,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1404302203
 SpriteRenderer:
@@ -29762,7 +29574,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1407674987
 SpriteRenderer:
@@ -29916,7 +29727,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1411214280
 SpriteRenderer:
@@ -30070,7 +29880,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1412005222
 SpriteRenderer:
@@ -30281,7 +30090,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1433316974
 SpriteRenderer:
@@ -30435,7 +30243,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1433665773
 SpriteRenderer:
@@ -30589,7 +30396,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1434718792
 SpriteRenderer:
@@ -30743,7 +30549,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1441625442
 SpriteRenderer:
@@ -30828,7 +30633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d060f73431c659640ae8f0ffb88f47f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!61 &1447801647
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31041,7 +30846,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1469875990
 SpriteRenderer:
@@ -31195,7 +30999,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1474084540
 SpriteRenderer:
@@ -31349,7 +31152,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1495074004
 SpriteRenderer:
@@ -31503,7 +31305,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1501110666
 SpriteRenderer:
@@ -31657,7 +31458,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1501985347
 SpriteRenderer:
@@ -31811,7 +31611,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1506010458
 SpriteRenderer:
@@ -31965,7 +31764,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1515981893
 SpriteRenderer:
@@ -32119,7 +31917,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1527312785
 SpriteRenderer:
@@ -32273,7 +32070,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1536847986
 SpriteRenderer:
@@ -32427,7 +32223,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1555190147
 SpriteRenderer:
@@ -32581,7 +32376,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1559530069
 SpriteRenderer:
@@ -32735,7 +32529,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1566334054
 SpriteRenderer:
@@ -32889,7 +32682,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1571582399
 SpriteRenderer:
@@ -33043,7 +32835,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1587522316
 SpriteRenderer:
@@ -33197,7 +32988,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1589756086
 SpriteRenderer:
@@ -33351,7 +33141,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1592368837
 SpriteRenderer:
@@ -33505,7 +33294,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1594364645
 SpriteRenderer:
@@ -33659,7 +33447,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1595942366
 SpriteRenderer:
@@ -33813,7 +33600,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1596382075
 SpriteRenderer:
@@ -33967,7 +33753,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1600378770
 SpriteRenderer:
@@ -34121,7 +33906,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1606050797
 SpriteRenderer:
@@ -34275,7 +34059,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1606286823
 SpriteRenderer:
@@ -34429,7 +34212,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1607601530
 SpriteRenderer:
@@ -34583,7 +34365,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1609636197
 SpriteRenderer:
@@ -34668,7 +34449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d060f73431c659640ae8f0ffb88f47f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!61 &1609785226
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34881,7 +34662,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1616887768
 SpriteRenderer:
@@ -35035,7 +34815,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1648022789
 SpriteRenderer:
@@ -35281,7 +35060,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1652595572
 SpriteRenderer:
@@ -35435,7 +35213,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1652794420
 SpriteRenderer:
@@ -35589,7 +35366,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1658062445
 SpriteRenderer:
@@ -35743,7 +35519,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1659261033
 SpriteRenderer:
@@ -35897,7 +35672,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1659750770
 SpriteRenderer:
@@ -36051,7 +35825,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1668188568
 SpriteRenderer:
@@ -36205,7 +35978,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1695009323
 SpriteRenderer:
@@ -36359,7 +36131,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1695074914
 SpriteRenderer:
@@ -36513,7 +36284,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1695256569
 SpriteRenderer:
@@ -36667,7 +36437,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1696165873
 SpriteRenderer:
@@ -36821,7 +36590,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1709901758
 SpriteRenderer:
@@ -36975,7 +36743,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1710728759
 SpriteRenderer:
@@ -37129,7 +36896,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1711608058
 SpriteRenderer:
@@ -37283,7 +37049,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1713596064
 SpriteRenderer:
@@ -37437,7 +37202,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1725019231
 SpriteRenderer:
@@ -37591,7 +37355,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1725938002
 SpriteRenderer:
@@ -37745,7 +37508,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1744640147
 SpriteRenderer:
@@ -37899,7 +37661,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1746412906
 SpriteRenderer:
@@ -38053,7 +37814,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1748693412
 SpriteRenderer:
@@ -38207,7 +37967,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1772299899
 SpriteRenderer:
@@ -38361,7 +38120,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1781611022
 SpriteRenderer:
@@ -38515,7 +38273,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1785544661
 SpriteRenderer:
@@ -38669,7 +38426,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1789127958
 SpriteRenderer:
@@ -38823,7 +38579,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1794071779
 SpriteRenderer:
@@ -38977,7 +38732,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1811262167
 SpriteRenderer:
@@ -39131,7 +38885,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1827723501
 SpriteRenderer:
@@ -39285,7 +39038,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1829445439
 SpriteRenderer:
@@ -39439,7 +39191,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1844414337
 SpriteRenderer:
@@ -39593,7 +39344,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1853500994
 SpriteRenderer:
@@ -39747,7 +39497,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1855900911
 SpriteRenderer:
@@ -39901,7 +39650,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1856906447
 SpriteRenderer:
@@ -40055,7 +39803,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1857915404
 SpriteRenderer:
@@ -40209,7 +39956,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1872519949
 SpriteRenderer:
@@ -40363,7 +40109,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1878817840
 SpriteRenderer:
@@ -40517,7 +40262,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1879903274
 SpriteRenderer:
@@ -40671,7 +40415,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1887210814
 SpriteRenderer:
@@ -40825,7 +40568,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1888576181
 SpriteRenderer:
@@ -40979,7 +40721,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1894027221
 SpriteRenderer:
@@ -41133,7 +40874,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1895387532
 SpriteRenderer:
@@ -41287,7 +41027,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1906115656
 SpriteRenderer:
@@ -41441,7 +41180,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1912326271
 SpriteRenderer:
@@ -41595,7 +41333,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1920142551
 SpriteRenderer:
@@ -41749,7 +41486,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1927156320
 SpriteRenderer:
@@ -41903,7 +41639,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1938779051
 SpriteRenderer:
@@ -42057,7 +41792,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1944952941
 SpriteRenderer:
@@ -42211,7 +41945,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1947680640
 SpriteRenderer:
@@ -42365,7 +42098,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1950830700
 SpriteRenderer:
@@ -42519,7 +42251,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1961208971
 SpriteRenderer:
@@ -42673,7 +42404,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1963615333
 SpriteRenderer:
@@ -42827,7 +42557,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1964896808
 SpriteRenderer:
@@ -42981,7 +42710,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1967372463
 SpriteRenderer:
@@ -43135,7 +42863,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1980882561
 SpriteRenderer:
@@ -43289,7 +43016,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1995652624
 SpriteRenderer:
@@ -43443,7 +43169,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &1999513712
 SpriteRenderer:
@@ -43597,7 +43322,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2005639048
 SpriteRenderer:
@@ -43751,7 +43475,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2014875767
 SpriteRenderer:
@@ -43905,7 +43628,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2021754641
 SpriteRenderer:
@@ -44059,7 +43781,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2041026730
 SpriteRenderer:
@@ -44213,7 +43934,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2043039704
 SpriteRenderer:
@@ -44367,7 +44087,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2062327622
 SpriteRenderer:
@@ -44521,7 +44240,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2062532143
 SpriteRenderer:
@@ -44675,7 +44393,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2064169848
 SpriteRenderer:
@@ -44829,7 +44546,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2075366118
 SpriteRenderer:
@@ -44983,7 +44699,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2092687101
 SpriteRenderer:
@@ -45137,7 +44852,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2093254260
 SpriteRenderer:
@@ -45291,7 +45005,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2094122734
 SpriteRenderer:
@@ -45445,7 +45158,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2096968466
 SpriteRenderer:
@@ -45599,7 +45311,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2097926325
 SpriteRenderer:
@@ -45753,7 +45464,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2099088471
 SpriteRenderer:
@@ -45907,7 +45617,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2104924086
 SpriteRenderer:
@@ -46061,7 +45770,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2105472389
 SpriteRenderer:
@@ -46215,7 +45923,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2106694046
 SpriteRenderer:
@@ -46369,7 +46076,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2122325115
 SpriteRenderer:
@@ -46523,7 +46229,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2131829922
 SpriteRenderer:
@@ -46677,7 +46382,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2134390454
 SpriteRenderer:
@@ -46831,7 +46535,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2137745714
 SpriteRenderer:
@@ -46985,7 +46688,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2138758030
 SpriteRenderer:
@@ -47139,7 +46841,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2142371985
 SpriteRenderer:
@@ -47293,7 +46994,6 @@ MonoBehaviour:
   playerIdleTimer: 0
   interval: 0
   tf_spriteRenderer: {fileID: 0}
-  player: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &2146139854
 SpriteRenderer:
