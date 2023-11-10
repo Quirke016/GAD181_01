@@ -11,22 +11,26 @@ public class TCT_Players : MonoBehaviour
     public int playerThreePoints;
     public int playerFourPoints;
 
-    public int playerOneCounter;
-    public int playerTwoCounter;
-    public int playerThreeCounter;
-    public int playerFourCounter;
+    public bool playerOneAlive = true;
+    public bool playerTwoAlive = true;
+    public bool playerThreeAlive = true;
+    public bool playerFourAlive = true;
 
-    public TextMeshProUGUI red;
-    public TextMeshProUGUI green;
-    public TextMeshProUGUI blue;
-    public TextMeshProUGUI yellow;
+    public TextMeshProUGUI redPoints;
+    public TextMeshProUGUI redAlive;
+    public TextMeshProUGUI greenPoints;
+    public TextMeshProUGUI greenAlive;
+    public TextMeshProUGUI bluePoints;
+    public TextMeshProUGUI blueAlive;
+    public TextMeshProUGUI yellowAlive;
+    public TextMeshProUGUI yellowPoints;
     public TextMeshProUGUI timer;
 
-    bool gameStarted = false;
-    bool gameOver = false;
-    float timeLeft = 45;
+    [SerializeField] bool gameStarted = false;
+    [SerializeField] bool gameOver = false;
+    [SerializeField] float timeLeft = 45;
 
-    float gameTimer; 
+    [SerializeField] float gameTimer; 
 
     #endregion
     void Start()
@@ -40,74 +44,134 @@ public class TCT_Players : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A)) 
+        #region display points and lives
+        redPoints.SetText(playerOnePoints.ToString());
+        if (!playerOneAlive)
         {
-            playerOnePoints++;
-            Debug.Log("P1");
-            gameStarted = true;
+            redAlive.SetText("Red Is Exterminated!");
         }
 
-        if (Input.GetKeyDown(KeyCode.F))
+        greenPoints.SetText(playerTwoPoints.ToString());
+        if (!playerTwoAlive)
         {
-            playerTwoPoints++;
-            Debug.Log("P2");
-            gameStarted = true;
+            greenAlive.SetText("Green Is Exterminated!");
         }
 
-        if (Input.GetKeyDown(KeyCode.J))
+        bluePoints.SetText(playerThreePoints.ToString());
+        if (!playerThreeAlive)
         {
-            playerThreePoints++;
-            Debug.Log("P3");
-            gameStarted = true;
-        }
-        if (Input.GetKeyDown(KeyCode.Semicolon))
-        {
-            playerFourPoints++;
-            Debug.Log("P4");
-            gameStarted = true;
+            blueAlive.SetText("Blue Is Exterminated!");
         }
 
-        red.SetText(playerOnePoints.ToString());
+        yellowPoints.SetText(playerFourPoints.ToString());
+        if (!playerFourAlive)
+        {
+            yellowAlive.SetText("Yellow Is Exterminated!");
+        }
+        #endregion
 
-        green.SetText(playerTwoPoints.ToString());
+        if (!gameOver)
+        {
+            if (Input.GetKeyDown(KeyCode.A) && playerOneAlive)
+            {
+                playerOnePoints++;
+                Debug.Log("P1");
+                gameStarted = true;
+            }
 
-        blue.SetText(playerThreePoints.ToString());
+            if (Input.GetKeyDown(KeyCode.F) && playerTwoAlive)
+            {
+                playerTwoPoints++;
+                Debug.Log("P2");
+                gameStarted = true;
+            }
 
-        yellow.SetText(playerFourPoints.ToString());
+            if (Input.GetKeyDown(KeyCode.J) && playerThreeAlive)
+            {
+                playerThreePoints++;
+                Debug.Log("P3");
+                gameStarted = true;
+            }
+            if (Input.GetKeyDown(KeyCode.Semicolon) && playerFourAlive)
+            {
+                playerFourPoints++;
+                Debug.Log("P4");
+                gameStarted = true;
+            }
+        }
 
 
-        if (gameStarted)
+        bool playOnce = false;
+        if (gameStarted && !playOnce)
         {
             // start animations
-
-
-
-            bool hasbegun = true;
-            if (hasbegun)
-            {
                 StartCoroutine(CountDown());
-                hasbegun = false;
-            }
-
             timer.SetText(timeLeft.ToString() + "seconds");
-            
-            if (timeLeft <= 0)
-            {
-                gameOver = true;
-            }
+            StartCoroutine(GameStageOne());
+            StartCoroutine(GameStageTwo());
+            StartCoroutine(GameStageThree());
+                playOnce = true;
         }
         if (gameOver)
         {
             Debug.Log("game ended");
+            //end screen
         }
     }
 
-    IEnumerator CountDown()
+    #region IEnumerators
+    #region gameStages
+    IEnumerator GameStageOne()
     {
-        yield return new WaitForSeconds(1);
-        timeLeft--;
-        StartCoroutine(CountDown());
+        yield return new WaitForSeconds(10);
+        if (playerOnePoints < 50)
+            playerOneAlive = false;
 
+        if (playerTwoPoints < 50)
+            playerTwoAlive = false;
+
+        if (playerThreePoints < 50)
+            playerThreeAlive = false;
+
+        if (playerFourPoints < 50)
+            playerFourAlive = false;
+    } 
+    IEnumerator GameStageTwo()
+    {
+        yield return new WaitForSeconds(25);
+        if (playerOnePoints < 95)
+            playerOneAlive = false;
+
+        if (playerTwoPoints < 95)
+            playerTwoAlive = false;
+
+        if (playerThreePoints < 95)
+            playerThreeAlive = false;
+
+        if (playerFourPoints < 95)
+            playerFourAlive = false;
+    }IEnumerator GameStageThree()
+    {
+        yield return new WaitForSeconds(38.5f);
+        if (playerOnePoints < 170)
+            playerOneAlive = false;
+
+        if (playerTwoPoints < 170)
+            playerTwoAlive = false;
+
+        if (playerThreePoints < 170)
+            playerThreeAlive = false;
+
+        if (playerFourPoints < 170)
+            playerFourAlive = false;
     }
 
+
+    #endregion
+    IEnumerator CountDown()
+    { 
+        yield return new WaitForSeconds(45);
+        gameOver = true;
+    }
+    #endregion
 }

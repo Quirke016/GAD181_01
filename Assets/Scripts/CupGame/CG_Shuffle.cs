@@ -523,7 +523,6 @@ public class CG_Shuffle : MonoBehaviour
 
         //int loopCount = 10;
 
-        bool runing = true;
 
         Debug.Log("loop " + loopCount);
 
