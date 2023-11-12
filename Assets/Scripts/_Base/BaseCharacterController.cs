@@ -32,6 +32,7 @@ public class BaseCharacterController : MonoBehaviour
     protected Vector2 startPosition;
     [SerializeField] protected float knockbackDuration = 0.5f;
     [SerializeField] protected float knockbackDistance = 0.25f;
+    
 
 
     protected virtual void OnEnable()
@@ -93,6 +94,8 @@ public class BaseCharacterController : MonoBehaviour
         }
     }
 
+
+   
     protected virtual void OnCollisionStay2D(Collision2D collision)
     {
 

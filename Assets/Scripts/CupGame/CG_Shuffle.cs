@@ -534,7 +534,6 @@ public class CG_Shuffle : MonoBehaviour
 
         //int loopCount = 10;
 
-        bool runing = true;
 
         Debug.Log("loop " + loopCount);
 
@@ -984,7 +983,10 @@ public class CG_Shuffle : MonoBehaviour
 
             statuesBool = true;
             statues.text = "Press space";
+<<<<<<< HEAD
             
+=======
+>>>>>>> Devement
             StartCoroutine(StartRound(2.5f));
 
 
